@@ -1,0 +1,13 @@
+# 0.5.0 development verification — 2026-11-13
+
+Scope: first project continuity release on Linux x64 with DSH 0.2.2-rc.2. These checks do not measure robot policy performance.
+
+- Standalone Python tests cover persistent directory identity, restart recovery, revision conflicts and preserved history, three goal types and derivation, dependencies, evidence references, user acceptance, paused/stale launch refusal, idempotent run association, cross-conversation access and existing process lifecycle contracts.
+- Full LinkMind integration: original 33 Studio Python tests passed; new project contracts passed; 13 Node tests passed, including conversation grants for the two new tools. JavaScript syntax and package contents checked.
+- Actual MCP stdio transport: 16 tools discovered, shared project read/write succeeded, agent attempts to accept goals were rejected. No model response was requested during this check.
+- Actual DSH page: created a development goal, paused/resumed it, launched the saved smoke recipe, registered its run evidence, reviewed a condition, rejected premature closure, kept a stale draft after another writer updated the project, then accepted after reconciliation. Derived an optimization goal, edited status/next action, and verified the copied conversation instruction includes the selected goal. Drafts disable launch/copy.
+- Rendered UI: light/dark, default 1280×720 and constrained 960×720 windows, long goal title, empty goal list, creation/editing, disabled actions, validation errors and expanded sections. Error feedback is beside the form's save action. Screenshots show synthetic demonstration data. During deliberate host restarts the upstream shell logged cancelled requests/released session references; the reloaded project pane recovered.
+- Native desktop `dsh-app://` transport: smoke recipe completed with 8 synthetic frames, three distinct PNG payloads observed, incremental logs and original JSON result available. The run retained its goal association; completion did not accept the goal.
+- Installation preserved credentials hash, default model, profile settings and the three existing conversations. Installed client bytes were checked against the final source after avoiding the same-filename package cache.
+
+Boundaries: new project forms are currently Chinese; the older configuration pane retains its existing locale support. No physical robot, paid model evaluation, unattended continuation, budget enforcement, cross-device migration or real long-term project effectiveness evaluation was performed. The host still owns execution lifetime. Project continuity is a persisted workflow, not a claim of autonomous research completion.

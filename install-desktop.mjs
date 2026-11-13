@@ -53,6 +53,9 @@ for(const name of ['package.json','cordis.patch.yml','pnpm-lock.yaml','pnpm-work
 }
 const bundles=path.join(home,'local-bundles');await mkdir(bundles,{recursive:true,mode:0o700});
 const packed=JSON.parse(await run('npm',['pack','--json','--ignore-scripts','--pack-destination',bundles],here,true));
-await run(dsh,['plugin','--profile',profile,'add',path.join(bundles,packed[0].filename),'--ignore-scripts']);
+// A content-addressed filename avoids pnpm reusing an older local archive during same-version reinstalls.
+const archive = path.join(bundles, packed[0].filename.replace(/\.tgz$/, '-'+packed[0].shasum.slice(0,12)+'.tgz'));
+await copyFile(path.join(bundles,packed[0].filename),archive);
+await run(dsh,['plugin','--profile',profile,'add',archive,'--ignore-scripts']);
 console.log('LinkMind installed. Reopen DeepSeek Harness and select 具身模式 · LinkMind.');
 console.log('Profile backup: '+backup);
