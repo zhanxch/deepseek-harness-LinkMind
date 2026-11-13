@@ -1,0 +1,140 @@
+{
+  "repository": "https://github.com/zhanxch/LinkMind",
+  "commit": "972993a3f7e3faf64caf9e5156e67a6b64b0eeb6",
+  "files": {
+    "LICENSE": {
+      "path": "studio/plugin/LICENSE",
+      "sha256": "2162c749a477aeffe0f73aca3764b52fef2f2cb7c7173030f02ff2707fac2bc9",
+      "exported_sha256": "2162c749a477aeffe0f73aca3764b52fef2f2cb7c7173030f02ff2707fac2bc9"
+    },
+    "agent.mjs": {
+      "path": "studio/plugin/agent.mjs",
+      "sha256": "1f7a681d10f04fbab7f172febcc146e5db0cbb58d714c9c1fb8fee4eee38cc01",
+      "exported_sha256": "1f7a681d10f04fbab7f172febcc146e5db0cbb58d714c9c1fb8fee4eee38cc01"
+    },
+    "client.js": {
+      "path": "studio/plugin/client.js",
+      "sha256": "74e02cceee3ef9ca39df2b283075658f8ec6bdd7a39e5810bc3f3256521e22a8",
+      "exported_sha256": "74e02cceee3ef9ca39df2b283075658f8ec6bdd7a39e5810bc3f3256521e22a8"
+    },
+    "codex-provider.mjs": {
+      "path": "studio/plugin/codex-provider.mjs",
+      "sha256": "e913d7e5dc8716284f1b2cd17a38ad6e05caaef75e72c4ebd78179955b8e8338",
+      "exported_sha256": "e913d7e5dc8716284f1b2cd17a38ad6e05caaef75e72c4ebd78179955b8e8338"
+    },
+    "codex-rpc.mjs": {
+      "path": "studio/plugin/codex-rpc.mjs",
+      "sha256": "3173b3896ca5283a6ddf879010f02796a61ecba5e0b120f4356e4b1a492937e1",
+      "exported_sha256": "3173b3896ca5283a6ddf879010f02796a61ecba5e0b120f4356e4b1a492937e1"
+    },
+    "cordis.patch.yml": {
+      "path": "studio/plugin/cordis.patch.yml",
+      "sha256": "38ee612fffa324476d966020d154f8ee7ba9bb282031942273d43bad417e556d",
+      "exported_sha256": "38ee612fffa324476d966020d154f8ee7ba9bb282031942273d43bad417e556d"
+    },
+    "desktop-host.mjs": {
+      "path": "studio/plugin/desktop-host.mjs",
+      "sha256": "bbd32c4b340c3545bff357e2be1025c244110e72356b7fa325620536595dee3b",
+      "exported_sha256": "bbd32c4b340c3545bff357e2be1025c244110e72356b7fa325620536595dee3b"
+    },
+    "index.mjs": {
+      "path": "studio/plugin/index.mjs",
+      "sha256": "37a883346a1e99a7e6299a1177801e08a2b9fa60e1fc44b9971ec177d8ea586e",
+      "exported_sha256": "37a883346a1e99a7e6299a1177801e08a2b9fa60e1fc44b9971ec177d8ea586e"
+    },
+    "package.json": {
+      "path": "studio/plugin/package.json",
+      "sha256": "c0e16e077af900f1bcfab4476965e343b6ddf2b6bd0ac57a7dfc19f477646a91",
+      "exported_sha256": "925324d248bd9d210e6d2505c21893ff56d7213b8fa95c4db22e80b7392afe2a",
+      "note": "Standalone repository metadata and distribution file list added"
+    },
+    "preset.mjs": {
+      "path": "studio/plugin/preset.mjs",
+      "sha256": "bfc89caf6299de9955bc73e421c0d6b54cb236b856ed6063f09e59c5c5e456c6",
+      "exported_sha256": "bfc89caf6299de9955bc73e421c0d6b54cb236b856ed6063f09e59c5c5e456c6"
+    },
+    "runtime.mjs": {
+      "path": "studio/plugin/runtime.mjs",
+      "sha256": "d63de3bb07bda3f08b63d26d37b5a2edc1476975c05a2c3c1b319d4673a53ef6",
+      "exported_sha256": "d63de3bb07bda3f08b63d26d37b5a2edc1476975c05a2c3c1b319d4673a53ef6"
+    },
+    "session.mjs": {
+      "path": "studio/plugin/session.mjs",
+      "sha256": "136188cb54ee5c2b1d1c748ef9bd561400e33fb269cd86ffe9791c6e69e4548d",
+      "exported_sha256": "136188cb54ee5c2b1d1c748ef9bd561400e33fb269cd86ffe9791c6e69e4548d"
+    },
+    "backend/src/roborag/studio/__init__.py": {
+      "path": "src/roborag/studio/__init__.py",
+      "sha256": "dff1ea6d291d8b8328e09f452b7eb5f7463d15c7f20764f7ceaa11f2e35e4f01",
+      "exported_sha256": "dff1ea6d291d8b8328e09f452b7eb5f7463d15c7f20764f7ceaa11f2e35e4f01"
+    },
+    "backend/src/roborag/studio/service.py": {
+      "path": "src/roborag/studio/service.py",
+      "sha256": "07b30da3535cc643c8311aee48823ad8cbb87aff457be5892713ad54c2ab2a58",
+      "exported_sha256": "07b30da3535cc643c8311aee48823ad8cbb87aff457be5892713ad54c2ab2a58"
+    },
+    "backend/src/roborag/studio/projects.py": {
+      "path": "src/roborag/studio/projects.py",
+      "sha256": "907712bdda9da2cc4e3dcdba92747e2b67e2231d22c47b8b04b9388188af77f9",
+      "exported_sha256": "907712bdda9da2cc4e3dcdba92747e2b67e2231d22c47b8b04b9388188af77f9"
+    },
+    "backend/src/roborag/studio/project_worker.py": {
+      "path": "src/roborag/studio/project_worker.py",
+      "sha256": "704edde05d463cb59233326999895ed00b0446fcfded26a32eb9f7302d88e8fe",
+      "exported_sha256": "704edde05d463cb59233326999895ed00b0446fcfded26a32eb9f7302d88e8fe"
+    },
+    "backend/src/roborag/studio/external_agent.py": {
+      "path": "src/roborag/studio/external_agent.py",
+      "sha256": "89623953e2046c78d4e68fb441e5aa9230f2c1d5f70a3bcefe16e900bd30a1d4",
+      "exported_sha256": "89623953e2046c78d4e68fb441e5aa9230f2c1d5f70a3bcefe16e900bd30a1d4"
+    },
+    "backend/src/roborag/studio/codex_agent.py": {
+      "path": "src/roborag/studio/codex_agent.py",
+      "sha256": "5b0cb694897c9ddfa2a604a1739a54e4162426e106e8bfb1f8406ff2920d6a59",
+      "exported_sha256": "5b0cb694897c9ddfa2a604a1739a54e4162426e106e8bfb1f8406ff2920d6a59"
+    },
+    "backend/src/roborag/studio/mcp.py": {
+      "path": "src/roborag/studio/mcp.py",
+      "sha256": "0015c393199f6b0e83e3f5a1222fb60ac9a0e351c38f4c1e94f553811137e183",
+      "exported_sha256": "0015c393199f6b0e83e3f5a1222fb60ac9a0e351c38f4c1e94f553811137e183"
+    },
+    "backend/src/roborag/episode_files.py": {
+      "path": "src/roborag/episode_files.py",
+      "sha256": "835b4bf94b32a95d116700823e1c317ddce0a172d6e2065e4ac317b110dcb8aa",
+      "exported_sha256": "835b4bf94b32a95d116700823e1c317ddce0a172d6e2065e4ac317b110dcb8aa"
+    },
+    "examples/studio-project/README.md": {
+      "path": "examples/studio-project/README.md",
+      "sha256": "0bf76ddd0ebe7b9ca4c736d7295a45fdaf2eb96f92c39e548b3b77d5d8f5ad99",
+      "exported_sha256": "243976e19a0803e622546a576587783138c13d1f43379484ba62b05ac84f53f3",
+      "note": "Documentation link adjusted for the standalone repository"
+    },
+    "examples/studio-project/linkmind.studio.json": {
+      "path": "examples/studio-project/linkmind.studio.json",
+      "sha256": "1cc8fee07dc8d988016428a2d96c3497850f2c8213fe11e95c154475aeeab00b",
+      "exported_sha256": "1cc8fee07dc8d988016428a2d96c3497850f2c8213fe11e95c154475aeeab00b"
+    },
+    "examples/studio-project/run.py": {
+      "path": "examples/studio-project/run.py",
+      "sha256": "6b8cc1393c73a87ab9cb2071eee1e886e29a4f6e52c3f4bd36c5e16b22358717",
+      "exported_sha256": "6b8cc1393c73a87ab9cb2071eee1e886e29a4f6e52c3f4bd36c5e16b22358717"
+    },
+    "docs/projects.md": {
+      "path": "docs/studio-projects.md",
+      "sha256": "ded20e8246dcb9d3062119c2208bf6edff063a754edd4d1397b3cfcbe911f085",
+      "exported_sha256": "ded20e8246dcb9d3062119c2208bf6edff063a754edd4d1397b3cfcbe911f085"
+    },
+    "tests/test_studio_projects.py": {
+      "path": "tests/test_studio_projects.py",
+      "sha256": "dcb1651f6402a0abc18ca2f60e22e9c212e2adb7431f66b4aa3c1afe4391782d",
+      "note": "Test Python path adjusted to standalone backend/src",
+      "exported_sha256": "8fff359126ba1f074482453a642f888f9d96cae871783772e7223495194575f3"
+    },
+    "tests/test_studio_workspace.py": {
+      "path": "tests/test_studio_workspace.py",
+      "sha256": "e8bebdeb7637688d31815c984c121e1c0d65b5fb2397311548032a522bb834d9",
+      "note": "Test Python path adjusted to standalone backend/src",
+      "exported_sha256": "e8bebdeb7637688d31815c984c121e1c0d65b5fb2397311548032a522bb834d9"
+    }
+  }
+}
