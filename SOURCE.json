@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/zhanxch/LinkMind",
-  "commit": "8d9373cbd56dfd26216e86262486cffa8a25c1dd",
+  "commit": "3e2495ace49336deab6ebbcb408ffa255462d183",
   "files": {
     "LICENSE": {
       "path": "studio/plugin/LICENSE",
@@ -14,8 +14,8 @@
     },
     "client.js": {
       "path": "studio/plugin/client.js",
-      "sha256": "d0fe9e231b93e2c5b02a36df08da94e589b549a7dbbce7182ed092e19209bdae",
-      "exported_sha256": "d0fe9e231b93e2c5b02a36df08da94e589b549a7dbbce7182ed092e19209bdae"
+      "sha256": "fc0eaa391265b0e18e42c74383b34eaf1a41579fa8098f412973d2f1976362a8",
+      "exported_sha256": "fc0eaa391265b0e18e42c74383b34eaf1a41579fa8098f412973d2f1976362a8"
     },
     "codex-provider.mjs": {
       "path": "studio/plugin/codex-provider.mjs",
@@ -44,14 +44,14 @@
     },
     "package.json": {
       "path": "studio/plugin/package.json",
-      "sha256": "062cfe3f6f43338188ebf710acf8957e712a4d803ebb4fa698d7ee85faf78e16",
-      "exported_sha256": "d18f48142e99122323a75fd540c61e0827d3b9cf3fd1e78dc046d43a8733d4c6",
+      "sha256": "89a336911afaf799c9bb2e79e15f48b8770c021aaa15333871b0304a4cddd3b9",
+      "exported_sha256": "05ad02362d57dbb4e5c22bf3fb9d08a4423b134e3c8c3cece849fc0fe2d7aa49",
       "note": "Standalone repository metadata and distribution file list added"
     },
     "preset.mjs": {
       "path": "studio/plugin/preset.mjs",
-      "sha256": "35b03ad42294b61807653d9b4ed749615dd61ab88cf3da133a4bf8a96d6cba18",
-      "exported_sha256": "35b03ad42294b61807653d9b4ed749615dd61ab88cf3da133a4bf8a96d6cba18"
+      "sha256": "22002a8e229f62ae7a08af85cc050e0726b7a2ed02e5d8f70c4686b750ead16f",
+      "exported_sha256": "22002a8e229f62ae7a08af85cc050e0726b7a2ed02e5d8f70c4686b750ead16f"
     },
     "runtime.mjs": {
       "path": "studio/plugin/runtime.mjs",
@@ -70,8 +70,8 @@
     },
     "backend/src/roborag/studio/service.py": {
       "path": "src/roborag/studio/service.py",
-      "sha256": "d293fc8d09b3de8746261024a79a61aa042e63199ebd70f85f0f0d6b91ccd61e",
-      "exported_sha256": "d293fc8d09b3de8746261024a79a61aa042e63199ebd70f85f0f0d6b91ccd61e"
+      "sha256": "78e25c39d86e2bd6546d7dbb0cbc7b7ced601700a7d563dfe51eae03461e87ad",
+      "exported_sha256": "78e25c39d86e2bd6546d7dbb0cbc7b7ced601700a7d563dfe51eae03461e87ad"
     },
     "backend/src/roborag/studio/projects.py": {
       "path": "src/roborag/studio/projects.py",
@@ -95,8 +95,8 @@
     },
     "backend/src/roborag/studio/mcp.py": {
       "path": "src/roborag/studio/mcp.py",
-      "sha256": "0eb039a9c635a4be8019368e0b4fb3936be25cb2716c33b5b9e9fb38363adfe0",
-      "exported_sha256": "0eb039a9c635a4be8019368e0b4fb3936be25cb2716c33b5b9e9fb38363adfe0"
+      "sha256": "c2e285a59762c4513a2d3aa3ad6976c66857a7bd133ea0b2ea652b103af77a42",
+      "exported_sha256": "c2e285a59762c4513a2d3aa3ad6976c66857a7bd133ea0b2ea652b103af77a42"
     },
     "backend/src/roborag/episode_files.py": {
       "path": "src/roborag/episode_files.py",
@@ -121,8 +121,8 @@
     },
     "docs/projects.md": {
       "path": "docs/studio-projects.md",
-      "sha256": "a4a589258cfa952f3c2bf9ded5ee6bc2a5363f8c8e23f71d6b4f38998dcf608c",
-      "exported_sha256": "a4a589258cfa952f3c2bf9ded5ee6bc2a5363f8c8e23f71d6b4f38998dcf608c"
+      "sha256": "f0f782d4d410fbf201cde8a8fc23619d4acf99573ccc9afdf349d900995b8b47",
+      "exported_sha256": "f0f782d4d410fbf201cde8a8fc23619d4acf99573ccc9afdf349d900995b8b47"
     },
     "tests/test_studio_projects.py": {
       "path": "tests/test_studio_projects.py",
@@ -133,18 +133,27 @@
     "tests/test_studio_workspace.py": {
       "path": "tests/test_studio_workspace.py",
       "sha256": "e8bebdeb7637688d31815c984c121e1c0d65b5fb2397311548032a522bb834d9",
-      "note": "Test Python path adjusted to standalone backend/src",
       "exported_sha256": "e8bebdeb7637688d31815c984c121e1c0d65b5fb2397311548032a522bb834d9"
     },
     "backend/src/roborag/studio/project_book.py": {
       "path": "src/roborag/studio/project_book.py",
-      "sha256": "6145d5f6f149cbe65b486ae38020644f5f4299b944a9a5883b3bca9727a03260",
-      "exported_sha256": "6145d5f6f149cbe65b486ae38020644f5f4299b944a9a5883b3bca9727a03260"
+      "sha256": "9fb193fe0743945916e5fca069b1775f06b6afb46091a70ea5eb55809d1f5a2b",
+      "exported_sha256": "9fb193fe0743945916e5fca069b1775f06b6afb46091a70ea5eb55809d1f5a2b"
     },
     "tests/test_project_book.py": {
       "path": "tests/test_project_book.py",
       "sha256": "07276f36c48c8a1f9a45c20d8fb797811eebc23fdc883b4fd06ada2dc63f393d",
       "exported_sha256": "07276f36c48c8a1f9a45c20d8fb797811eebc23fdc883b4fd06ada2dc63f393d"
+    },
+    "goal.mjs": {
+      "path": "studio/plugin/goal.mjs",
+      "sha256": "fc973aa037e77a645d9145a556c5ed39e36edffbb83b4a52122c3fb2d1b7bcb5",
+      "exported_sha256": "fc973aa037e77a645d9145a556c5ed39e36edffbb83b4a52122c3fb2d1b7bcb5"
+    },
+    "tests/test_goal_tasks.py": {
+      "path": "tests/test_goal_tasks.py",
+      "sha256": "59cbd1d8b775f9a5a2a350c5fd3578cf94e527bf0031e5b2717a3f11150f3a5b",
+      "exported_sha256": "59cbd1d8b775f9a5a2a350c5fd3578cf94e527bf0031e5b2717a3f11150f3a5b"
     }
   }
 }
