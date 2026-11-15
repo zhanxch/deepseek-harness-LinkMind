@@ -14,5 +14,5 @@ jobs:
         with:
           node-version: '24'
       - run: PYTHONPATH=backend/src python -m unittest discover -s tests -q
-      - run: node --check client.js && node --check runtime.mjs && node --check goal.mjs && node --check preset.mjs
+      - run: node --check workbench.mjs && node --check index.mjs && node --check client.js && node --check runtime.mjs && node --check goal.mjs && node --check preset.mjs
       - run: npm pack --dry-run --ignore-scripts
