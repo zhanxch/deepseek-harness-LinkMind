@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/zhanxch/LinkMind",
-  "commit": "a527bcb1159f19eae3f4eb4c63785c93e7c91025",
+  "commit": "a4e3fa5f4a339eaed010b81780afc1b6a240fe89",
   "files": {
     "LICENSE": {
       "path": "studio/plugin/LICENSE",
@@ -12,7 +12,7 @@
     },
     "client.js": {
       "path": "studio/plugin/client.js",
-      "sha256": "d20b717aa9b1cf78262d58700f64b92c60cb7f77fd498b3c8c9386fb5d8dd8d9"
+      "sha256": "533e77d33008000227398aeffe3e460fcbf77fdb343ceb9e75beb9ae903474b7"
     },
     "codex-provider.mjs": {
       "path": "studio/plugin/codex-provider.mjs",
@@ -48,11 +48,11 @@
     },
     "index.mjs": {
       "path": "studio/plugin/index.mjs",
-      "sha256": "e515d709762c88ecf668a7e932941a77ad8e7609f62382552dd693a29ac36fec"
+      "sha256": "d9eee4c9069560e7dd4c27ad16f6abe1f4af0de36987efc03a6ab8fb669bfdee"
     },
     "package.json": {
       "path": "studio/plugin/package.json",
-      "sha256": "5109428d684a6aa27b6bcc4bb7e649c0ec1c584987c44412ea06b8dc5fe99beb"
+      "sha256": "f05f1fba59a98f8c5c0c3e81d6f38555f378d23a9d1bce1ffd32877298f4c943"
     },
     "preset.mjs": {
       "path": "studio/plugin/preset.mjs",
@@ -66,13 +66,17 @@
       "path": "studio/plugin/session.mjs",
       "sha256": "27067a2bf088546007e03099541382d3d737dab10109605dc3b27fa4d8fb09cb"
     },
+    "studio-dock.mjs": {
+      "path": "studio/plugin/studio-dock.mjs",
+      "sha256": "88809be209481388bfc8831a8945f7d36b76327fb8237711a4eef23fac14555e"
+    },
     "studio-overview.mjs": {
       "path": "studio/plugin/studio-overview.mjs",
       "sha256": "4335db496126b570a184ff088be3b9c693cdfe75c0b937e380303afd003cfcb4"
     },
     "studio-shell.mjs": {
       "path": "studio/plugin/studio-shell.mjs",
-      "sha256": "70ed8590327281a30f4c2c71a5310f7b382665165b5c4308197e075a47d1b6fe"
+      "sha256": "edbcdc81d7da037827b2a7780f808acf80457c9b8f51c61c5f3b2e9333c3ceff"
     },
     "task-context.mjs": {
       "path": "studio/plugin/task-context.mjs",
@@ -80,7 +84,7 @@
     },
     "workbench.mjs": {
       "path": "studio/plugin/workbench.mjs",
-      "sha256": "51a8d7b819ce12c51e555dbac1fa1321dca1f27a5fc1c4d62c7eb1d02570e2ac"
+      "sha256": "995236f20e1bc2b5379f43e4ae801beedb9d3b1e78d0cf45ece95e65627a1d12"
     },
     "backend/src/roborag/studio/__init__.py": {
       "path": "src/roborag/studio/__init__.py",
@@ -129,7 +133,6 @@
     "examples/studio-project/README.md": {
       "path": "examples/studio-project/README.md",
       "sha256": "0bf76ddd0ebe7b9ca4c736d7295a45fdaf2eb96f92c39e548b3b77d5d8f5ad99",
-      "note": "Documentation link uses standalone docs/projects.md",
       "exported_sha256": "243976e19a0803e622546a576587783138c13d1f43379484ba62b05ac84f53f3"
     },
     "examples/studio-project/linkmind.studio.json": {
@@ -142,11 +145,12 @@
     },
     "docs/projects.md": {
       "path": "docs/studio-projects.md",
-      "sha256": "2edd7ac11ab61a05654e73e8737bd7dfd12dfdee307b28ed127f86b48a45e19e"
+      "sha256": "2edd7ac11ab61a05654e73e8737bd7dfd12dfdee307b28ed127f86b48a45e19e",
+      "exported_sha256": "cee2927169255ce4c13e9bd85881daeb81dabebf4ff89ffddf68b02d25a835eb"
     },
     "docs/workbench.md": {
       "path": "docs/studio-ide-workbench.md",
-      "sha256": "e1b279b82c5056dd2ae58a433933f3c7da9630f99a58a41ca7c0bc1967771140"
+      "sha256": "ad49de9f592b85687d6cbde2f60c069632b9ddc190e0a87c9d230d9a2fac79ad"
     },
     "docs/control-conversation.md": {
       "path": "docs/studio-control-conversation.md",
@@ -155,7 +159,8 @@
     "tests/test_studio_projects.py": {
       "path": "tests/test_studio_projects.py",
       "sha256": "dcb1651f6402a0abc18ca2f60e22e9c212e2adb7431f66b4aa3c1afe4391782d",
-      "note": "Test Python path adjusted to standalone backend/src"
+      "note": "Test Python path adjusted to standalone backend/src",
+      "exported_sha256": "8fff359126ba1f074482453a642f888f9d96cae871783772e7223495194575f3"
     },
     "tests/test_studio_workspace.py": {
       "path": "tests/test_studio_workspace.py",
@@ -179,23 +184,33 @@
     },
     "tests/studio-overview.test.mjs": {
       "path": "studio/studio-overview.test.mjs",
-      "sha256": "30a9876b3e9b9c78e6cf89c56fdc9440fcbcb677a7b405efd7558610456a9a02"
+      "sha256": "30a9876b3e9b9c78e6cf89c56fdc9440fcbcb677a7b405efd7558610456a9a02",
+      "exported_sha256": "523bc4fd2d786bf2dc7979b8e5eb8b352e39a4b75abe03bae5262712be3965c2"
     },
     "tests/codex-session.test.mjs": {
       "path": "studio/tests/codex-session.test.mjs",
-      "sha256": "660d59742ccbde69343a4b7a53e2134cba4d61d823e20a0c07f26ac80c4c9361"
+      "sha256": "660d59742ccbde69343a4b7a53e2134cba4d61d823e20a0c07f26ac80c4c9361",
+      "exported_sha256": "f0775cbdcf5414acb08ffb89fbd1491ad85f37e79aa2e91d5cf2c7bce2371549"
     },
     "tests/codex-telemetry.test.mjs": {
       "path": "studio/tests/codex-telemetry.test.mjs",
-      "sha256": "c716174d8dee95363b159dbf7dbb67cf6c87ef4f9dba393a2526c57c0856e0e9"
+      "sha256": "c716174d8dee95363b159dbf7dbb67cf6c87ef4f9dba393a2526c57c0856e0e9",
+      "exported_sha256": "ca94bf4326ed80d8be0341bb2e8385189370292132d7a03ff343678a3fc7af40"
     },
     "tests/task-context.test.mjs": {
       "path": "studio/tests/task-context.test.mjs",
-      "sha256": "585634eb6e883a1672b99c8f833280aa37e68e95be522e2124ed1b55f4b0cfde"
+      "sha256": "585634eb6e883a1672b99c8f833280aa37e68e95be522e2124ed1b55f4b0cfde",
+      "exported_sha256": "b4d2eb56c419902933b7e576d15ad052fca2893982ed163a8d47e2b63c41e82a"
     },
     "tests/proxy.test.mjs": {
       "path": "studio/tests/proxy.test.mjs",
-      "sha256": "f77d02002f833d9670c7d88f5cc5c3e06e3a3b74b5d3030bdec1ec089883253a"
+      "sha256": "f77d02002f833d9670c7d88f5cc5c3e06e3a3b74b5d3030bdec1ec089883253a",
+      "exported_sha256": "2b93c9e10133ed0a95454a86ea086591adbc2ff7a8deb3fa8535964262c41faf"
+    },
+    "tests/studio-dock.test.mjs": {
+      "path": "studio/tests/studio-dock.test.mjs",
+      "sha256": "3b37cde6a36457a8c25ac2aa30da5d30de79a588a3530158ecaf1ec39ec76680",
+      "exported_sha256": "4883af02d629e74af9958fa1dd499b4429ab89d1c79576241f2cadc2afc9e96b"
     },
     "docs/codex-continuity.md": {
       "path": "docs/studio-codex-continuity.md",
@@ -203,7 +218,8 @@
     },
     "benchmarks/codex-continuity.mjs": {
       "path": "studio/benchmarks/codex-continuity.mjs",
-      "sha256": "f8593681d7bb3681cde3b4abb3a9e5a9bfb732024b4de812f1006e98bd12edb5"
+      "sha256": "f8593681d7bb3681cde3b4abb3a9e5a9bfb732024b4de812f1006e98bd12edb5",
+      "exported_sha256": "4e76ed6fb0400db86fab1e54973c243847428f0a67e05a183648b94d58c1a44b"
     }
   }
 }
