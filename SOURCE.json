@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/zhanxch/LinkMind",
-  "commit": "8f2121b19f5965cab29f384814a0c5b866f3e61c",
+  "commit": "fb3f2982b8b6076dcb86a76c2ed5506e4a9709ce",
   "files": {
     "LICENSE": {
       "path": "studio/plugin/LICENSE",
@@ -14,8 +14,8 @@
     },
     "client.js": {
       "path": "studio/plugin/client.js",
-      "sha256": "5120fd2f0190ad80924c5a9f87bacd1946f4500ce3d172c7cfc2eb21b9cf9e26",
-      "exported_sha256": "5120fd2f0190ad80924c5a9f87bacd1946f4500ce3d172c7cfc2eb21b9cf9e26"
+      "sha256": "46f456b727e1bb91966e55ce2369bfeed6ee9dc717297954d4a1b94de9272bf8",
+      "exported_sha256": "46f456b727e1bb91966e55ce2369bfeed6ee9dc717297954d4a1b94de9272bf8"
     },
     "codex-provider.mjs": {
       "path": "studio/plugin/codex-provider.mjs",
@@ -44,13 +44,13 @@
     },
     "index.mjs": {
       "path": "studio/plugin/index.mjs",
-      "sha256": "5fc1cb5cbaf2954fc8548cfa66dca56e5e7075b8b8dbd3aa108636fbcd1ee6c0",
-      "exported_sha256": "5fc1cb5cbaf2954fc8548cfa66dca56e5e7075b8b8dbd3aa108636fbcd1ee6c0"
+      "sha256": "7451aa7e0f02e18c42eb23c32fcf5f9e3052ca9645b8f2bee78374c865d19c7c",
+      "exported_sha256": "7451aa7e0f02e18c42eb23c32fcf5f9e3052ca9645b8f2bee78374c865d19c7c"
     },
     "package.json": {
       "path": "studio/plugin/package.json",
-      "sha256": "b58704de8311753cec8d64a0d4898ee0554aad3988eed41ffaca16ca79ea6646",
-      "exported_sha256": "b58704de8311753cec8d64a0d4898ee0554aad3988eed41ffaca16ca79ea6646"
+      "sha256": "b3efabe1a128d65ed0ab51615a9d41acb1d759202ecb798adaee05e85ca51d4d",
+      "exported_sha256": "b3efabe1a128d65ed0ab51615a9d41acb1d759202ecb798adaee05e85ca51d4d"
     },
     "preset.mjs": {
       "path": "studio/plugin/preset.mjs",
@@ -69,8 +69,8 @@
     },
     "workbench.mjs": {
       "path": "studio/plugin/workbench.mjs",
-      "sha256": "7a533ed71e76843967eaa8095f0d375c538df994ee2ef7ae17ad76aca05015ed",
-      "exported_sha256": "7a533ed71e76843967eaa8095f0d375c538df994ee2ef7ae17ad76aca05015ed"
+      "sha256": "51a8d7b819ce12c51e555dbac1fa1321dca1f27a5fc1c4d62c7eb1d02570e2ac",
+      "exported_sha256": "51a8d7b819ce12c51e555dbac1fa1321dca1f27a5fc1c4d62c7eb1d02570e2ac"
     },
     "backend/src/roborag/studio/__init__.py": {
       "path": "src/roborag/studio/__init__.py",
@@ -146,7 +146,8 @@
     "docs/projects.md": {
       "path": "docs/studio-projects.md",
       "sha256": "2edd7ac11ab61a05654e73e8737bd7dfd12dfdee307b28ed127f86b48a45e19e",
-      "exported_sha256": "cee2927169255ce4c13e9bd85881daeb81dabebf4ff89ffddf68b02d25a835eb"
+      "exported_sha256": "cee2927169255ce4c13e9bd85881daeb81dabebf4ff89ffddf68b02d25a835eb",
+      "note": "Standalone documentation or test path adaptation; original and exported hashes retained"
     },
     "docs/control-conversation.md": {
       "path": "docs/studio-control-conversation.md",
@@ -156,7 +157,7 @@
     "tests/test_studio_projects.py": {
       "path": "tests/test_studio_projects.py",
       "sha256": "dcb1651f6402a0abc18ca2f60e22e9c212e2adb7431f66b4aa3c1afe4391782d",
-      "note": "Test Python path adjusted to standalone backend/src",
+      "note": "Standalone documentation or test path adaptation; original and exported hashes retained",
       "exported_sha256": "8fff359126ba1f074482453a642f888f9d96cae871783772e7223495194575f3"
     },
     "tests/test_studio_workspace.py": {
@@ -182,6 +183,27 @@
       "sha256": "820f1e10ea99d75231510c02e7e4dcfe463c59fd97eff10cfc2939682a70af74",
       "note": "Test Python path adjusted to standalone backend/src",
       "exported_sha256": "820f1e10ea99d75231510c02e7e4dcfe463c59fd97eff10cfc2939682a70af74"
+    },
+    "studio-shell.mjs": {
+      "path": "studio/plugin/studio-shell.mjs",
+      "sha256": "70ed8590327281a30f4c2c71a5310f7b382665165b5c4308197e075a47d1b6fe",
+      "exported_sha256": "70ed8590327281a30f4c2c71a5310f7b382665165b5c4308197e075a47d1b6fe"
+    },
+    "studio-overview.mjs": {
+      "path": "studio/plugin/studio-overview.mjs",
+      "sha256": "4335db496126b570a184ff088be3b9c693cdfe75c0b937e380303afd003cfcb4",
+      "exported_sha256": "4335db496126b570a184ff088be3b9c693cdfe75c0b937e380303afd003cfcb4"
+    },
+    "docs/workbench.md": {
+      "path": "docs/studio-ide-workbench.md",
+      "sha256": "e1b279b82c5056dd2ae58a433933f3c7da9630f99a58a41ca7c0bc1967771140",
+      "exported_sha256": "e1b279b82c5056dd2ae58a433933f3c7da9630f99a58a41ca7c0bc1967771140"
+    },
+    "tests/studio-overview.test.mjs": {
+      "path": "studio/studio-overview.test.mjs",
+      "sha256": "30a9876b3e9b9c78e6cf89c56fdc9440fcbcb677a7b405efd7558610456a9a02",
+      "exported_sha256": "523bc4fd2d786bf2dc7979b8e5eb8b352e39a4b75abe03bae5262712be3965c2",
+      "note": "Standalone documentation or test path adaptation; original and exported hashes retained"
     }
   }
 }
