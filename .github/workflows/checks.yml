@@ -14,5 +14,6 @@ jobs:
         with:
           node-version: '24'
       - run: PYTHONPATH=backend/src python -m unittest discover -s tests -q
-      - run: node --check studio-shell.mjs && node --check studio-overview.mjs && node --test tests/studio-overview.test.mjs && node --check workbench.mjs && node --check index.mjs && node --check client.js && node --check runtime.mjs && node --check goal.mjs && node --check preset.mjs
+      - run: node --test tests/*.test.mjs
+      - run: for file in *.mjs client.js; do node --check "$file"; done
       - run: npm pack --dry-run --ignore-scripts

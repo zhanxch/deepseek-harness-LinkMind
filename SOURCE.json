@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/zhanxch/LinkMind",
-  "commit": "fb3f2982b8b6076dcb86a76c2ed5506e4a9709ce",
+  "commit": "d3333e2b29e17ba9cb1f8086595a7e75b3ba9a38",
   "files": {
     "LICENSE": {
       "path": "studio/plugin/LICENSE",
@@ -9,8 +9,8 @@
     },
     "agent.mjs": {
       "path": "studio/plugin/agent.mjs",
-      "sha256": "1f7a681d10f04fbab7f172febcc146e5db0cbb58d714c9c1fb8fee4eee38cc01",
-      "exported_sha256": "1f7a681d10f04fbab7f172febcc146e5db0cbb58d714c9c1fb8fee4eee38cc01"
+      "sha256": "62e9c426028a280dad2bc319eb576ceffb0157f055aa1ebaea59fe4a08086284",
+      "exported_sha256": "62e9c426028a280dad2bc319eb576ceffb0157f055aa1ebaea59fe4a08086284"
     },
     "client.js": {
       "path": "studio/plugin/client.js",
@@ -19,13 +19,18 @@
     },
     "codex-provider.mjs": {
       "path": "studio/plugin/codex-provider.mjs",
-      "sha256": "e913d7e5dc8716284f1b2cd17a38ad6e05caaef75e72c4ebd78179955b8e8338",
-      "exported_sha256": "e913d7e5dc8716284f1b2cd17a38ad6e05caaef75e72c4ebd78179955b8e8338"
+      "sha256": "8672c89fff82d718f6b311dbf76ef64b9b032b0911ad1e63dd556249cce5922c",
+      "exported_sha256": "8672c89fff82d718f6b311dbf76ef64b9b032b0911ad1e63dd556249cce5922c"
     },
     "codex-rpc.mjs": {
       "path": "studio/plugin/codex-rpc.mjs",
-      "sha256": "3173b3896ca5283a6ddf879010f02796a61ecba5e0b120f4356e4b1a492937e1",
-      "exported_sha256": "3173b3896ca5283a6ddf879010f02796a61ecba5e0b120f4356e4b1a492937e1"
+      "sha256": "d7abe12d69c85c006f7bad7e12015086032d78c622a76db2fa9ed780019b25be",
+      "exported_sha256": "d7abe12d69c85c006f7bad7e12015086032d78c622a76db2fa9ed780019b25be"
+    },
+    "codex-session.mjs": {
+      "path": "studio/plugin/codex-session.mjs",
+      "sha256": "4a7a8bb76f2c3120f2054acd2164c6bcf821096c55d7c29ed5b9fb73d9eb20ee",
+      "exported_sha256": "4a7a8bb76f2c3120f2054acd2164c6bcf821096c55d7c29ed5b9fb73d9eb20ee"
     },
     "cordis.patch.yml": {
       "path": "studio/plugin/cordis.patch.yml",
@@ -34,13 +39,13 @@
     },
     "desktop-host.mjs": {
       "path": "studio/plugin/desktop-host.mjs",
-      "sha256": "bbd32c4b340c3545bff357e2be1025c244110e72356b7fa325620536595dee3b",
-      "exported_sha256": "bbd32c4b340c3545bff357e2be1025c244110e72356b7fa325620536595dee3b"
+      "sha256": "4d76276b2761c9786edb36eb751180cae7be0b71a2e66d521955ad56f20799c7",
+      "exported_sha256": "4d76276b2761c9786edb36eb751180cae7be0b71a2e66d521955ad56f20799c7"
     },
     "goal.mjs": {
       "path": "studio/plugin/goal.mjs",
-      "sha256": "fc973aa037e77a645d9145a556c5ed39e36edffbb83b4a52122c3fb2d1b7bcb5",
-      "exported_sha256": "fc973aa037e77a645d9145a556c5ed39e36edffbb83b4a52122c3fb2d1b7bcb5"
+      "sha256": "0760c01c9b97aae34acff235c967ae34cb33b3c2587d241d3fb995b0e04c4ec0",
+      "exported_sha256": "0760c01c9b97aae34acff235c967ae34cb33b3c2587d241d3fb995b0e04c4ec0"
     },
     "index.mjs": {
       "path": "studio/plugin/index.mjs",
@@ -49,13 +54,13 @@
     },
     "package.json": {
       "path": "studio/plugin/package.json",
-      "sha256": "b3efabe1a128d65ed0ab51615a9d41acb1d759202ecb798adaee05e85ca51d4d",
-      "exported_sha256": "b3efabe1a128d65ed0ab51615a9d41acb1d759202ecb798adaee05e85ca51d4d"
+      "sha256": "3e1a5b8deb26f8f9dc1474e25c0210c3dddefc3337957f795dc64a24f90df343",
+      "exported_sha256": "3e1a5b8deb26f8f9dc1474e25c0210c3dddefc3337957f795dc64a24f90df343"
     },
     "preset.mjs": {
       "path": "studio/plugin/preset.mjs",
-      "sha256": "22002a8e229f62ae7a08af85cc050e0726b7a2ed02e5d8f70c4686b750ead16f",
-      "exported_sha256": "22002a8e229f62ae7a08af85cc050e0726b7a2ed02e5d8f70c4686b750ead16f"
+      "sha256": "9c933313c890b0491cff83b33ab03e7ee22d598a9b8b78e6b8a2f1e92dbf542f",
+      "exported_sha256": "9c933313c890b0491cff83b33ab03e7ee22d598a9b8b78e6b8a2f1e92dbf542f"
     },
     "runtime.mjs": {
       "path": "studio/plugin/runtime.mjs",
@@ -66,6 +71,16 @@
       "path": "studio/plugin/session.mjs",
       "sha256": "27067a2bf088546007e03099541382d3d737dab10109605dc3b27fa4d8fb09cb",
       "exported_sha256": "27067a2bf088546007e03099541382d3d737dab10109605dc3b27fa4d8fb09cb"
+    },
+    "studio-overview.mjs": {
+      "path": "studio/plugin/studio-overview.mjs",
+      "sha256": "4335db496126b570a184ff088be3b9c693cdfe75c0b937e380303afd003cfcb4",
+      "exported_sha256": "4335db496126b570a184ff088be3b9c693cdfe75c0b937e380303afd003cfcb4"
+    },
+    "studio-shell.mjs": {
+      "path": "studio/plugin/studio-shell.mjs",
+      "sha256": "70ed8590327281a30f4c2c71a5310f7b382665165b5c4308197e075a47d1b6fe",
+      "exported_sha256": "70ed8590327281a30f4c2c71a5310f7b382665165b5c4308197e075a47d1b6fe"
     },
     "workbench.mjs": {
       "path": "studio/plugin/workbench.mjs",
@@ -79,13 +94,13 @@
     },
     "backend/src/roborag/studio/service.py": {
       "path": "src/roborag/studio/service.py",
-      "sha256": "6a0e55d0dbcb40facb8b6d54cb9e331aca635f568a9ea2273671c773af005f92",
-      "exported_sha256": "6a0e55d0dbcb40facb8b6d54cb9e331aca635f568a9ea2273671c773af005f92"
+      "sha256": "ed682e394e298ad8a1a52ee0c5a64020c5888c3e1e2d48920bfa2a8a2c2241ea",
+      "exported_sha256": "ed682e394e298ad8a1a52ee0c5a64020c5888c3e1e2d48920bfa2a8a2c2241ea"
     },
     "backend/src/roborag/studio/project_book.py": {
       "path": "src/roborag/studio/project_book.py",
-      "sha256": "9fb193fe0743945916e5fca069b1775f06b6afb46091a70ea5eb55809d1f5a2b",
-      "exported_sha256": "9fb193fe0743945916e5fca069b1775f06b6afb46091a70ea5eb55809d1f5a2b"
+      "sha256": "4d605af1ad7667e1f177127eb0fcdc0715994c2a45b50a33ca9eb70536f7bb08",
+      "exported_sha256": "4d605af1ad7667e1f177127eb0fcdc0715994c2a45b50a33ca9eb70536f7bb08"
     },
     "backend/src/roborag/studio/conversation_library.py": {
       "path": "src/roborag/studio/conversation_library.py",
@@ -146,8 +161,12 @@
     "docs/projects.md": {
       "path": "docs/studio-projects.md",
       "sha256": "2edd7ac11ab61a05654e73e8737bd7dfd12dfdee307b28ed127f86b48a45e19e",
-      "exported_sha256": "cee2927169255ce4c13e9bd85881daeb81dabebf4ff89ffddf68b02d25a835eb",
-      "note": "Standalone documentation or test path adaptation; original and exported hashes retained"
+      "exported_sha256": "cee2927169255ce4c13e9bd85881daeb81dabebf4ff89ffddf68b02d25a835eb"
+    },
+    "docs/workbench.md": {
+      "path": "docs/studio-ide-workbench.md",
+      "sha256": "e1b279b82c5056dd2ae58a433933f3c7da9630f99a58a41ca7c0bc1967771140",
+      "exported_sha256": "e1b279b82c5056dd2ae58a433933f3c7da9630f99a58a41ca7c0bc1967771140"
     },
     "docs/control-conversation.md": {
       "path": "docs/studio-control-conversation.md",
@@ -157,7 +176,7 @@
     "tests/test_studio_projects.py": {
       "path": "tests/test_studio_projects.py",
       "sha256": "dcb1651f6402a0abc18ca2f60e22e9c212e2adb7431f66b4aa3c1afe4391782d",
-      "note": "Standalone documentation or test path adaptation; original and exported hashes retained",
+      "note": "Test Python path adjusted to standalone backend/src",
       "exported_sha256": "8fff359126ba1f074482453a642f888f9d96cae871783772e7223495194575f3"
     },
     "tests/test_studio_workspace.py": {
@@ -174,9 +193,9 @@
     },
     "tests/test_goal_tasks.py": {
       "path": "tests/test_goal_tasks.py",
-      "sha256": "59cbd1d8b775f9a5a2a350c5fd3578cf94e527bf0031e5b2717a3f11150f3a5b",
+      "sha256": "1e5c4579543be24b014b736753bb2fa9cdc36cccff07068e931ca8b3d2254fe0",
       "note": "Test Python path adjusted to standalone backend/src",
-      "exported_sha256": "59cbd1d8b775f9a5a2a350c5fd3578cf94e527bf0031e5b2717a3f11150f3a5b"
+      "exported_sha256": "1e5c4579543be24b014b736753bb2fa9cdc36cccff07068e931ca8b3d2254fe0"
     },
     "tests/test_control_conversation.py": {
       "path": "tests/test_control_conversation.py",
@@ -184,26 +203,25 @@
       "note": "Test Python path adjusted to standalone backend/src",
       "exported_sha256": "820f1e10ea99d75231510c02e7e4dcfe463c59fd97eff10cfc2939682a70af74"
     },
-    "studio-shell.mjs": {
-      "path": "studio/plugin/studio-shell.mjs",
-      "sha256": "70ed8590327281a30f4c2c71a5310f7b382665165b5c4308197e075a47d1b6fe",
-      "exported_sha256": "70ed8590327281a30f4c2c71a5310f7b382665165b5c4308197e075a47d1b6fe"
-    },
-    "studio-overview.mjs": {
-      "path": "studio/plugin/studio-overview.mjs",
-      "sha256": "4335db496126b570a184ff088be3b9c693cdfe75c0b937e380303afd003cfcb4",
-      "exported_sha256": "4335db496126b570a184ff088be3b9c693cdfe75c0b937e380303afd003cfcb4"
-    },
-    "docs/workbench.md": {
-      "path": "docs/studio-ide-workbench.md",
-      "sha256": "e1b279b82c5056dd2ae58a433933f3c7da9630f99a58a41ca7c0bc1967771140",
-      "exported_sha256": "e1b279b82c5056dd2ae58a433933f3c7da9630f99a58a41ca7c0bc1967771140"
-    },
     "tests/studio-overview.test.mjs": {
       "path": "studio/studio-overview.test.mjs",
       "sha256": "30a9876b3e9b9c78e6cf89c56fdc9440fcbcb677a7b405efd7558610456a9a02",
-      "exported_sha256": "523bc4fd2d786bf2dc7979b8e5eb8b352e39a4b75abe03bae5262712be3965c2",
-      "note": "Standalone documentation or test path adaptation; original and exported hashes retained"
+      "exported_sha256": "523bc4fd2d786bf2dc7979b8e5eb8b352e39a4b75abe03bae5262712be3965c2"
+    },
+    "tests/codex-session.test.mjs": {
+      "path": "studio/tests/codex-session.test.mjs",
+      "sha256": "711a6884a51b7fd7240621bb5ea2203585bd7ce666e2962e777665b7f3fbca82",
+      "exported_sha256": "7e797c47bd6e77f66c1b90ff14d52d9c837ba70caa99f695348ceece491591b2"
+    },
+    "docs/codex-continuity.md": {
+      "path": "docs/studio-codex-continuity.md",
+      "sha256": "60bff6f08fdf95903d071530d9e849055d70f89a4f952307d015c5a81de8b12b",
+      "exported_sha256": "60bff6f08fdf95903d071530d9e849055d70f89a4f952307d015c5a81de8b12b"
+    },
+    "benchmarks/codex-continuity.mjs": {
+      "path": "studio/benchmarks/codex-continuity.mjs",
+      "sha256": "f8593681d7bb3681cde3b4abb3a9e5a9bfb732024b4de812f1006e98bd12edb5",
+      "exported_sha256": "4e76ed6fb0400db86fab1e54973c243847428f0a67e05a183648b94d58c1a44b"
     }
   }
 }

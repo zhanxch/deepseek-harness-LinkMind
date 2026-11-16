@@ -4,7 +4,7 @@
 
 在 DSH 原生会话中开发具身项目：选工作区，选 **具身模式 · LinkMind**，直接说要做什么。需要持续推进时输入 **`/goal 复现|优化|开发` + 要求**，使用 DSH 自带的目标状态、暂停、恢复和续行。助手结合你的指令和仓库完善任务说明、步骤和验证标准，任务面板保存进展、证据及关联对话；上方标签页查看控制会话与摄像头，下方保留正常 DSH 对话。
 
-这是开发预览 `0.8.0`，当前验证环境为 **Linux x64 + DSH 0.2.2-rc.2**。它不是新的控制算法，也不自动完成任意仓库的复现。
+这是开发预览 `0.8.1`，当前验证环境为 **Linux x64 + DSH 0.2.2-rc.2**。它不是新的控制算法，也不自动完成任意仓库的复现。
 
 ## 界面
 
@@ -49,7 +49,7 @@ python3 -m venv "$HOME/.local/share/linkmind-studio/python"
 ```bash
 # 普通 dsh web 用户的 web profile
 npm pack --ignore-scripts
-dsh plugin --profile web add ./linkmind-dsh-studio-0.8.0.tgz --ignore-scripts
+dsh plugin --profile web add ./linkmind-dsh-studio-0.8.1.tgz --ignore-scripts
 ```
 
 `zhanxch/dsh-linux` 桌面版使用 `desktop` profile，默认数据目录为 `~/.dsh`。可运行本仓库的安装器（需要 Node.js 24.9+ 和 npm）：
@@ -164,3 +164,9 @@ npm pack --dry-run --ignore-scripts
 独立包的来源和文件哈希记录在 [SOURCE.json](SOURCE.json)。界面验证使用真实 DSH 的隔离预览 profile；桌面宿主协议另行验证。截图中的蓝点是合成自检，任务面板使用实际会话的功能验证记录；原生 Push-T 的开发运行不代表这个插件的算法优势或跨平台验证。控制会话截图使用此前 HexaShell 原始事件的定时重放，未执行新的模型或机器人评测。具体检查与边界见 [0.8.0 验证记录](docs/validation-0.8.0.md)。
 
 MIT license. 使用 DSH 的 `agentPresets`、会话工具钩子、MCP、`conversation.hero.options`、原生工作区及右侧栏插件扩展点；没有修改 DSH 聊天实现。HALOFLUX 的源码、美术和动效未包含在此仓库。
+
+### Codex 连续会话（0.8.1）
+
+本机 Codex 模型现在按 DSH 会话复用持久线程，工具结果回到原调用继续执行；DSH 仍负责工具与权限。自然语言创建 Goal 也会自动绑定工作区任务，已有未绑定 Goal 会在继续会话时补齐。
+
+同一 GPT-6-Astra xhigh 四次工具调用的小样本对照：旧适配器 61.1 秒，新适配器 19.7 秒。此数据不是复杂项目的提速承诺，也不是与 Codex 桌面版的对照。[验证、恢复行为和限制](docs/codex-continuity.md)。
