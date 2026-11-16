@@ -1,227 +1,209 @@
 {
   "repository": "https://github.com/zhanxch/LinkMind",
-  "commit": "d3333e2b29e17ba9cb1f8086595a7e75b3ba9a38",
+  "commit": "a527bcb1159f19eae3f4eb4c63785c93e7c91025",
   "files": {
     "LICENSE": {
       "path": "studio/plugin/LICENSE",
-      "sha256": "2162c749a477aeffe0f73aca3764b52fef2f2cb7c7173030f02ff2707fac2bc9",
-      "exported_sha256": "2162c749a477aeffe0f73aca3764b52fef2f2cb7c7173030f02ff2707fac2bc9"
+      "sha256": "2162c749a477aeffe0f73aca3764b52fef2f2cb7c7173030f02ff2707fac2bc9"
     },
     "agent.mjs": {
       "path": "studio/plugin/agent.mjs",
-      "sha256": "62e9c426028a280dad2bc319eb576ceffb0157f055aa1ebaea59fe4a08086284",
-      "exported_sha256": "62e9c426028a280dad2bc319eb576ceffb0157f055aa1ebaea59fe4a08086284"
+      "sha256": "0adee4f871846c498e14f53dca48e06829c50fc94d64a4b70ef08e4eb8b4aa01"
     },
     "client.js": {
       "path": "studio/plugin/client.js",
-      "sha256": "46f456b727e1bb91966e55ce2369bfeed6ee9dc717297954d4a1b94de9272bf8",
-      "exported_sha256": "46f456b727e1bb91966e55ce2369bfeed6ee9dc717297954d4a1b94de9272bf8"
+      "sha256": "d20b717aa9b1cf78262d58700f64b92c60cb7f77fd498b3c8c9386fb5d8dd8d9"
     },
     "codex-provider.mjs": {
       "path": "studio/plugin/codex-provider.mjs",
-      "sha256": "8672c89fff82d718f6b311dbf76ef64b9b032b0911ad1e63dd556249cce5922c",
-      "exported_sha256": "8672c89fff82d718f6b311dbf76ef64b9b032b0911ad1e63dd556249cce5922c"
+      "sha256": "65daa58b43673c407a33e873b4896d84246d28c65e7bcdfd9bd17c8f76737ebb"
     },
     "codex-rpc.mjs": {
       "path": "studio/plugin/codex-rpc.mjs",
-      "sha256": "d7abe12d69c85c006f7bad7e12015086032d78c622a76db2fa9ed780019b25be",
-      "exported_sha256": "d7abe12d69c85c006f7bad7e12015086032d78c622a76db2fa9ed780019b25be"
+      "sha256": "02b20894d725dd52097ba930ca3446819e502e02b6937e7f3857e02d353d3065"
     },
     "codex-session.mjs": {
       "path": "studio/plugin/codex-session.mjs",
-      "sha256": "4a7a8bb76f2c3120f2054acd2164c6bcf821096c55d7c29ed5b9fb73d9eb20ee",
-      "exported_sha256": "4a7a8bb76f2c3120f2054acd2164c6bcf821096c55d7c29ed5b9fb73d9eb20ee"
+      "sha256": "90d3457aaafa6b29a88179a4396be97c3d8012e6620068fb927d440a81588284"
+    },
+    "codex-stats.mjs": {
+      "path": "studio/plugin/codex-stats.mjs",
+      "sha256": "d916182ad8853560098760473fa5243275c3444ebcdb7ea605f22cc3eed97065"
+    },
+    "codex-telemetry.mjs": {
+      "path": "studio/plugin/codex-telemetry.mjs",
+      "sha256": "0e7813a7a3d8c166543c8df639d00501c7b48b5e9393ed1a7e82c8692a582fa6"
     },
     "cordis.patch.yml": {
       "path": "studio/plugin/cordis.patch.yml",
-      "sha256": "38ee612fffa324476d966020d154f8ee7ba9bb282031942273d43bad417e556d",
-      "exported_sha256": "38ee612fffa324476d966020d154f8ee7ba9bb282031942273d43bad417e556d"
+      "sha256": "38ee612fffa324476d966020d154f8ee7ba9bb282031942273d43bad417e556d"
     },
     "desktop-host.mjs": {
       "path": "studio/plugin/desktop-host.mjs",
-      "sha256": "4d76276b2761c9786edb36eb751180cae7be0b71a2e66d521955ad56f20799c7",
-      "exported_sha256": "4d76276b2761c9786edb36eb751180cae7be0b71a2e66d521955ad56f20799c7"
+      "sha256": "4d76276b2761c9786edb36eb751180cae7be0b71a2e66d521955ad56f20799c7"
     },
     "goal.mjs": {
       "path": "studio/plugin/goal.mjs",
-      "sha256": "0760c01c9b97aae34acff235c967ae34cb33b3c2587d241d3fb995b0e04c4ec0",
-      "exported_sha256": "0760c01c9b97aae34acff235c967ae34cb33b3c2587d241d3fb995b0e04c4ec0"
+      "sha256": "47776e49fee5300cf8ecd82667415dc4989d5a4520fc5d9d352ead3b2f9dfe43"
     },
     "index.mjs": {
       "path": "studio/plugin/index.mjs",
-      "sha256": "7451aa7e0f02e18c42eb23c32fcf5f9e3052ca9645b8f2bee78374c865d19c7c",
-      "exported_sha256": "7451aa7e0f02e18c42eb23c32fcf5f9e3052ca9645b8f2bee78374c865d19c7c"
+      "sha256": "e515d709762c88ecf668a7e932941a77ad8e7609f62382552dd693a29ac36fec"
     },
     "package.json": {
       "path": "studio/plugin/package.json",
-      "sha256": "3e1a5b8deb26f8f9dc1474e25c0210c3dddefc3337957f795dc64a24f90df343",
-      "exported_sha256": "3e1a5b8deb26f8f9dc1474e25c0210c3dddefc3337957f795dc64a24f90df343"
+      "sha256": "5109428d684a6aa27b6bcc4bb7e649c0ec1c584987c44412ea06b8dc5fe99beb"
     },
     "preset.mjs": {
       "path": "studio/plugin/preset.mjs",
-      "sha256": "9c933313c890b0491cff83b33ab03e7ee22d598a9b8b78e6b8a2f1e92dbf542f",
-      "exported_sha256": "9c933313c890b0491cff83b33ab03e7ee22d598a9b8b78e6b8a2f1e92dbf542f"
+      "sha256": "7ccd6a7c6648581075fec9d551afec4fa2e39a43c282f670e3b4286df2d4f10f"
     },
     "runtime.mjs": {
       "path": "studio/plugin/runtime.mjs",
-      "sha256": "d63de3bb07bda3f08b63d26d37b5a2edc1476975c05a2c3c1b319d4673a53ef6",
-      "exported_sha256": "d63de3bb07bda3f08b63d26d37b5a2edc1476975c05a2c3c1b319d4673a53ef6"
+      "sha256": "d63de3bb07bda3f08b63d26d37b5a2edc1476975c05a2c3c1b319d4673a53ef6"
     },
     "session.mjs": {
       "path": "studio/plugin/session.mjs",
-      "sha256": "27067a2bf088546007e03099541382d3d737dab10109605dc3b27fa4d8fb09cb",
-      "exported_sha256": "27067a2bf088546007e03099541382d3d737dab10109605dc3b27fa4d8fb09cb"
+      "sha256": "27067a2bf088546007e03099541382d3d737dab10109605dc3b27fa4d8fb09cb"
     },
     "studio-overview.mjs": {
       "path": "studio/plugin/studio-overview.mjs",
-      "sha256": "4335db496126b570a184ff088be3b9c693cdfe75c0b937e380303afd003cfcb4",
-      "exported_sha256": "4335db496126b570a184ff088be3b9c693cdfe75c0b937e380303afd003cfcb4"
+      "sha256": "4335db496126b570a184ff088be3b9c693cdfe75c0b937e380303afd003cfcb4"
     },
     "studio-shell.mjs": {
       "path": "studio/plugin/studio-shell.mjs",
-      "sha256": "70ed8590327281a30f4c2c71a5310f7b382665165b5c4308197e075a47d1b6fe",
-      "exported_sha256": "70ed8590327281a30f4c2c71a5310f7b382665165b5c4308197e075a47d1b6fe"
+      "sha256": "70ed8590327281a30f4c2c71a5310f7b382665165b5c4308197e075a47d1b6fe"
+    },
+    "task-context.mjs": {
+      "path": "studio/plugin/task-context.mjs",
+      "sha256": "ded4b9032c6a4d60ea01e15f9c251215f6f93ed053ecd59c31fa09ab8de48c52"
     },
     "workbench.mjs": {
       "path": "studio/plugin/workbench.mjs",
-      "sha256": "51a8d7b819ce12c51e555dbac1fa1321dca1f27a5fc1c4d62c7eb1d02570e2ac",
-      "exported_sha256": "51a8d7b819ce12c51e555dbac1fa1321dca1f27a5fc1c4d62c7eb1d02570e2ac"
+      "sha256": "51a8d7b819ce12c51e555dbac1fa1321dca1f27a5fc1c4d62c7eb1d02570e2ac"
     },
     "backend/src/roborag/studio/__init__.py": {
       "path": "src/roborag/studio/__init__.py",
-      "sha256": "dff1ea6d291d8b8328e09f452b7eb5f7463d15c7f20764f7ceaa11f2e35e4f01",
-      "exported_sha256": "dff1ea6d291d8b8328e09f452b7eb5f7463d15c7f20764f7ceaa11f2e35e4f01"
+      "sha256": "dff1ea6d291d8b8328e09f452b7eb5f7463d15c7f20764f7ceaa11f2e35e4f01"
     },
     "backend/src/roborag/studio/service.py": {
       "path": "src/roborag/studio/service.py",
-      "sha256": "ed682e394e298ad8a1a52ee0c5a64020c5888c3e1e2d48920bfa2a8a2c2241ea",
-      "exported_sha256": "ed682e394e298ad8a1a52ee0c5a64020c5888c3e1e2d48920bfa2a8a2c2241ea"
+      "sha256": "ed682e394e298ad8a1a52ee0c5a64020c5888c3e1e2d48920bfa2a8a2c2241ea"
     },
     "backend/src/roborag/studio/project_book.py": {
       "path": "src/roborag/studio/project_book.py",
-      "sha256": "4d605af1ad7667e1f177127eb0fcdc0715994c2a45b50a33ca9eb70536f7bb08",
-      "exported_sha256": "4d605af1ad7667e1f177127eb0fcdc0715994c2a45b50a33ca9eb70536f7bb08"
+      "sha256": "4d605af1ad7667e1f177127eb0fcdc0715994c2a45b50a33ca9eb70536f7bb08"
     },
     "backend/src/roborag/studio/conversation_library.py": {
       "path": "src/roborag/studio/conversation_library.py",
-      "sha256": "4da7634c1c0b18d6870894a97198599bb24d4fb4d83a5e86eed8ca23d8673c8d",
-      "exported_sha256": "4da7634c1c0b18d6870894a97198599bb24d4fb4d83a5e86eed8ca23d8673c8d"
+      "sha256": "4da7634c1c0b18d6870894a97198599bb24d4fb4d83a5e86eed8ca23d8673c8d"
     },
     "backend/src/roborag/studio/control_conversation.py": {
       "path": "src/roborag/studio/control_conversation.py",
-      "sha256": "313173b4f049d4e9751287d60ae18016ff60c1eafccc4ed0abb4c77fcff24e84",
-      "exported_sha256": "313173b4f049d4e9751287d60ae18016ff60c1eafccc4ed0abb4c77fcff24e84"
+      "sha256": "313173b4f049d4e9751287d60ae18016ff60c1eafccc4ed0abb4c77fcff24e84"
     },
     "backend/src/roborag/studio/projects.py": {
       "path": "src/roborag/studio/projects.py",
-      "sha256": "1cfc5fa0abcbd52475c860cf11a7b34c2a5bed917868500f72cc90145a801f71",
-      "exported_sha256": "1cfc5fa0abcbd52475c860cf11a7b34c2a5bed917868500f72cc90145a801f71"
+      "sha256": "1cfc5fa0abcbd52475c860cf11a7b34c2a5bed917868500f72cc90145a801f71"
     },
     "backend/src/roborag/studio/project_worker.py": {
       "path": "src/roborag/studio/project_worker.py",
-      "sha256": "704edde05d463cb59233326999895ed00b0446fcfded26a32eb9f7302d88e8fe",
-      "exported_sha256": "704edde05d463cb59233326999895ed00b0446fcfded26a32eb9f7302d88e8fe"
+      "sha256": "704edde05d463cb59233326999895ed00b0446fcfded26a32eb9f7302d88e8fe"
     },
     "backend/src/roborag/studio/external_agent.py": {
       "path": "src/roborag/studio/external_agent.py",
-      "sha256": "89623953e2046c78d4e68fb441e5aa9230f2c1d5f70a3bcefe16e900bd30a1d4",
-      "exported_sha256": "89623953e2046c78d4e68fb441e5aa9230f2c1d5f70a3bcefe16e900bd30a1d4"
+      "sha256": "89623953e2046c78d4e68fb441e5aa9230f2c1d5f70a3bcefe16e900bd30a1d4"
     },
     "backend/src/roborag/studio/codex_agent.py": {
       "path": "src/roborag/studio/codex_agent.py",
-      "sha256": "5b0cb694897c9ddfa2a604a1739a54e4162426e106e8bfb1f8406ff2920d6a59",
-      "exported_sha256": "5b0cb694897c9ddfa2a604a1739a54e4162426e106e8bfb1f8406ff2920d6a59"
+      "sha256": "5b0cb694897c9ddfa2a604a1739a54e4162426e106e8bfb1f8406ff2920d6a59"
     },
     "backend/src/roborag/studio/mcp.py": {
       "path": "src/roborag/studio/mcp.py",
-      "sha256": "c2e285a59762c4513a2d3aa3ad6976c66857a7bd133ea0b2ea652b103af77a42",
-      "exported_sha256": "c2e285a59762c4513a2d3aa3ad6976c66857a7bd133ea0b2ea652b103af77a42"
+      "sha256": "c2e285a59762c4513a2d3aa3ad6976c66857a7bd133ea0b2ea652b103af77a42"
     },
     "backend/src/roborag/episode_files.py": {
       "path": "src/roborag/episode_files.py",
-      "sha256": "835b4bf94b32a95d116700823e1c317ddce0a172d6e2065e4ac317b110dcb8aa",
-      "exported_sha256": "835b4bf94b32a95d116700823e1c317ddce0a172d6e2065e4ac317b110dcb8aa"
+      "sha256": "835b4bf94b32a95d116700823e1c317ddce0a172d6e2065e4ac317b110dcb8aa"
     },
     "examples/studio-project/README.md": {
       "path": "examples/studio-project/README.md",
       "sha256": "0bf76ddd0ebe7b9ca4c736d7295a45fdaf2eb96f92c39e548b3b77d5d8f5ad99",
-      "exported_sha256": "243976e19a0803e622546a576587783138c13d1f43379484ba62b05ac84f53f3",
-      "note": "Standalone documentation or test path adaptation; original and exported hashes retained"
+      "note": "Documentation link uses standalone docs/projects.md",
+      "exported_sha256": "243976e19a0803e622546a576587783138c13d1f43379484ba62b05ac84f53f3"
     },
     "examples/studio-project/linkmind.studio.json": {
       "path": "examples/studio-project/linkmind.studio.json",
-      "sha256": "1cc8fee07dc8d988016428a2d96c3497850f2c8213fe11e95c154475aeeab00b",
-      "exported_sha256": "1cc8fee07dc8d988016428a2d96c3497850f2c8213fe11e95c154475aeeab00b"
+      "sha256": "1cc8fee07dc8d988016428a2d96c3497850f2c8213fe11e95c154475aeeab00b"
     },
     "examples/studio-project/run.py": {
       "path": "examples/studio-project/run.py",
-      "sha256": "6b8cc1393c73a87ab9cb2071eee1e886e29a4f6e52c3f4bd36c5e16b22358717",
-      "exported_sha256": "6b8cc1393c73a87ab9cb2071eee1e886e29a4f6e52c3f4bd36c5e16b22358717"
+      "sha256": "6b8cc1393c73a87ab9cb2071eee1e886e29a4f6e52c3f4bd36c5e16b22358717"
     },
     "docs/projects.md": {
       "path": "docs/studio-projects.md",
-      "sha256": "2edd7ac11ab61a05654e73e8737bd7dfd12dfdee307b28ed127f86b48a45e19e",
-      "exported_sha256": "cee2927169255ce4c13e9bd85881daeb81dabebf4ff89ffddf68b02d25a835eb"
+      "sha256": "2edd7ac11ab61a05654e73e8737bd7dfd12dfdee307b28ed127f86b48a45e19e"
     },
     "docs/workbench.md": {
       "path": "docs/studio-ide-workbench.md",
-      "sha256": "e1b279b82c5056dd2ae58a433933f3c7da9630f99a58a41ca7c0bc1967771140",
-      "exported_sha256": "e1b279b82c5056dd2ae58a433933f3c7da9630f99a58a41ca7c0bc1967771140"
+      "sha256": "e1b279b82c5056dd2ae58a433933f3c7da9630f99a58a41ca7c0bc1967771140"
     },
     "docs/control-conversation.md": {
       "path": "docs/studio-control-conversation.md",
-      "sha256": "b3247602906b5cc3fcbec5152cd36c7e04f7b4b68b708932f31d9a99264e4c47",
-      "exported_sha256": "b3247602906b5cc3fcbec5152cd36c7e04f7b4b68b708932f31d9a99264e4c47"
+      "sha256": "b3247602906b5cc3fcbec5152cd36c7e04f7b4b68b708932f31d9a99264e4c47"
     },
     "tests/test_studio_projects.py": {
       "path": "tests/test_studio_projects.py",
       "sha256": "dcb1651f6402a0abc18ca2f60e22e9c212e2adb7431f66b4aa3c1afe4391782d",
-      "note": "Test Python path adjusted to standalone backend/src",
-      "exported_sha256": "8fff359126ba1f074482453a642f888f9d96cae871783772e7223495194575f3"
+      "note": "Test Python path adjusted to standalone backend/src"
     },
     "tests/test_studio_workspace.py": {
       "path": "tests/test_studio_workspace.py",
       "sha256": "e8bebdeb7637688d31815c984c121e1c0d65b5fb2397311548032a522bb834d9",
-      "note": "Test Python path adjusted to standalone backend/src",
-      "exported_sha256": "e8bebdeb7637688d31815c984c121e1c0d65b5fb2397311548032a522bb834d9"
+      "note": "Test Python path adjusted to standalone backend/src"
     },
     "tests/test_project_book.py": {
       "path": "tests/test_project_book.py",
       "sha256": "07276f36c48c8a1f9a45c20d8fb797811eebc23fdc883b4fd06ada2dc63f393d",
-      "note": "Test Python path adjusted to standalone backend/src",
-      "exported_sha256": "07276f36c48c8a1f9a45c20d8fb797811eebc23fdc883b4fd06ada2dc63f393d"
+      "note": "Test Python path adjusted to standalone backend/src"
     },
     "tests/test_goal_tasks.py": {
       "path": "tests/test_goal_tasks.py",
       "sha256": "1e5c4579543be24b014b736753bb2fa9cdc36cccff07068e931ca8b3d2254fe0",
-      "note": "Test Python path adjusted to standalone backend/src",
-      "exported_sha256": "1e5c4579543be24b014b736753bb2fa9cdc36cccff07068e931ca8b3d2254fe0"
+      "note": "Test Python path adjusted to standalone backend/src"
     },
     "tests/test_control_conversation.py": {
       "path": "tests/test_control_conversation.py",
       "sha256": "820f1e10ea99d75231510c02e7e4dcfe463c59fd97eff10cfc2939682a70af74",
-      "note": "Test Python path adjusted to standalone backend/src",
-      "exported_sha256": "820f1e10ea99d75231510c02e7e4dcfe463c59fd97eff10cfc2939682a70af74"
+      "note": "Test Python path adjusted to standalone backend/src"
     },
     "tests/studio-overview.test.mjs": {
       "path": "studio/studio-overview.test.mjs",
-      "sha256": "30a9876b3e9b9c78e6cf89c56fdc9440fcbcb677a7b405efd7558610456a9a02",
-      "exported_sha256": "523bc4fd2d786bf2dc7979b8e5eb8b352e39a4b75abe03bae5262712be3965c2"
+      "sha256": "30a9876b3e9b9c78e6cf89c56fdc9440fcbcb677a7b405efd7558610456a9a02"
     },
     "tests/codex-session.test.mjs": {
       "path": "studio/tests/codex-session.test.mjs",
-      "sha256": "711a6884a51b7fd7240621bb5ea2203585bd7ce666e2962e777665b7f3fbca82",
-      "exported_sha256": "7e797c47bd6e77f66c1b90ff14d52d9c837ba70caa99f695348ceece491591b2"
+      "sha256": "660d59742ccbde69343a4b7a53e2134cba4d61d823e20a0c07f26ac80c4c9361"
+    },
+    "tests/codex-telemetry.test.mjs": {
+      "path": "studio/tests/codex-telemetry.test.mjs",
+      "sha256": "c716174d8dee95363b159dbf7dbb67cf6c87ef4f9dba393a2526c57c0856e0e9"
+    },
+    "tests/task-context.test.mjs": {
+      "path": "studio/tests/task-context.test.mjs",
+      "sha256": "585634eb6e883a1672b99c8f833280aa37e68e95be522e2124ed1b55f4b0cfde"
+    },
+    "tests/proxy.test.mjs": {
+      "path": "studio/tests/proxy.test.mjs",
+      "sha256": "f77d02002f833d9670c7d88f5cc5c3e06e3a3b74b5d3030bdec1ec089883253a"
     },
     "docs/codex-continuity.md": {
       "path": "docs/studio-codex-continuity.md",
-      "sha256": "60bff6f08fdf95903d071530d9e849055d70f89a4f952307d015c5a81de8b12b",
-      "exported_sha256": "60bff6f08fdf95903d071530d9e849055d70f89a4f952307d015c5a81de8b12b"
+      "sha256": "f911a05d72cda69bc8a9b9ce166daa30e356c5802ce7e22b8bd993ad480c1935"
     },
     "benchmarks/codex-continuity.mjs": {
       "path": "studio/benchmarks/codex-continuity.mjs",
-      "sha256": "f8593681d7bb3681cde3b4abb3a9e5a9bfb732024b4de812f1006e98bd12edb5",
-      "exported_sha256": "4e76ed6fb0400db86fab1e54973c243847428f0a67e05a183648b94d58c1a44b"
+      "sha256": "f8593681d7bb3681cde3b4abb3a9e5a9bfb732024b4de812f1006e98bd12edb5"
     }
   }
 }

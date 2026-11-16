@@ -4,7 +4,7 @@
 
 在 DSH 原生会话中开发具身项目：选工作区，选 **具身模式 · LinkMind**，直接说要做什么。需要持续推进时输入 **`/goal 复现|优化|开发` + 要求**，使用 DSH 自带的目标状态、暂停、恢复和续行。助手结合你的指令和仓库完善任务说明、步骤和验证标准，任务面板保存进展、证据及关联对话；上方标签页查看控制会话与摄像头，下方保留正常 DSH 对话。
 
-这是开发预览 `0.8.1`，当前验证环境为 **Linux x64 + DSH 0.2.2-rc.2**。它不是新的控制算法，也不自动完成任意仓库的复现。
+这是开发预览 `0.8.2`，当前验证环境为 **Linux x64 + DSH 0.2.2-rc.2**。它不是新的控制算法，也不自动完成任意仓库的复现。
 
 ## 界面
 
@@ -49,7 +49,7 @@ python3 -m venv "$HOME/.local/share/linkmind-studio/python"
 ```bash
 # 普通 dsh web 用户的 web profile
 npm pack --ignore-scripts
-dsh plugin --profile web add ./linkmind-dsh-studio-0.8.1.tgz --ignore-scripts
+dsh plugin --profile web add ./linkmind-dsh-studio-0.8.2.tgz --ignore-scripts
 ```
 
 `zhanxch/dsh-linux` 桌面版使用 `desktop` profile，默认数据目录为 `~/.dsh`。可运行本仓库的安装器（需要 Node.js 24.9+ 和 npm）：
@@ -170,3 +170,7 @@ MIT license. 使用 DSH 的 `agentPresets`、会话工具钩子、MCP、`convers
 本机 Codex 模型现在按 DSH 会话复用持久线程，工具结果回到原调用继续执行；DSH 仍负责工具与权限。自然语言创建 Goal 也会自动绑定工作区任务，已有未绑定 Goal 会在继续会话时补齐。
 
 同一 GPT-6-Astra xhigh 四次工具调用的小样本对照：旧适配器 61.1 秒，新适配器 19.7 秒。此数据不是复杂项目的提速承诺，也不是与 Codex 桌面版的对照。[验证、恢复行为和限制](docs/codex-continuity.md)。
+
+### 上下文与运行统计
+
+选择 Codex 模型后，输入框下方显示输出吞吐、缓存命中率和 token，点击可看详情。上下文容量已接入 DSH，长对话沿用自动压缩，也可输入 `/compact`。项目约束与验收标准完整保留，历史证据按需读取。统计口径、旧记录限制和验证结果见 [上下文与统计说明](docs/codex-continuity.md)。
