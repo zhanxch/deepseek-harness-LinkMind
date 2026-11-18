@@ -1,16 +1,27 @@
-# LinkMind Studio for DeepSeek Harness
+# visual RSI studio
 
 **非官方社区插件，由社区成员独立开发和维护，未经过 DeepSeek 官方审核或背书。**
 
-在 DSH 原生会话中开发具身项目：选工作区，选 **具身模式 · LinkMind**，直接说要做什么。需要持续推进时输入 **`/goal 复现|优化|开发` + 要求**，使用 DSH 自带的目标状态、暂停、恢复和续行。助手结合你的指令和仓库完善任务说明、步骤和验证标准，任务面板保存进展、证据及关联对话；上方标签页查看控制会话与摄像头，下方保留正常 DSH 对话。
+**用于具身 Agent 的可视化工作台，重点做好四件事：可视化、数据管理、环境注册、实际效果。**
 
-这是开发预览 `0.8.3`，当前验证环境为 **Linux x64 + DSH 0.2.2-rc.2**。它不是新的控制算法，也不自动完成任意仓库的复现。
+1. **可视化**：在会话中看真实执行过程、工具调用和摄像头，运行时可以引导。
+2. **数据管理**：整理每次运行的输入、配置、代码版本、轨迹、画面和结果，能够查找与比较。
+3. **环境注册**：接入并选择仿真或真实环境，说明依赖、资源、连接和启动条件；同一环境供不同方案复用。
+4. **实际效果**：看任务是否完成、评分与耗时，以及修改前后是否改善，用实际结果检验工作台是否好用。
+
+日常使用：选工作区与环境 → 会话中启动 → 看过程 → 保存和比较结果。仍沿用 DSH 原生会话操作，持续任务可选用 `/goal 复现|优化|开发`。
+
+当前已有基础可视化与运行记录；独立的环境注册与选择仍待实现，现阶段使用项目运行配置。外部控制方案的插话能力取决于其适配器。完整同步回放、环境打包和系统效果对照尚未完成。见[简明定位](docs/product-brief.md)与[四项验证](docs/product-validation.md)。
+
+Studio 现名 **visual RSI studio**；LinkMind 保留为独立研究方案名称。仓库地址、插件标识与存储路径暂沿用旧值，兼容已有安装和会话。
+
+这是开发预览 `0.8.4`，当前验证环境为 **Linux x64 + DSH 0.2.2-rc.2**。它不是新的控制算法，也不自动完成任意仓库的复现。
 
 ## 界面
 
 ![IDE 工作台：项目会话树、真实控制会话与历史摄像头快照](docs/images/studio-0.8.png)
 
-工作台沿用 DSH 的模型、登录、流式会话与原生文件查看器；外框采用活动栏、项目树、标签页、下方对话和状态栏。截图来自隔离验证项目中的历史 HexaShell 记录，未重跑机器人。
+工作台沿用 DSH 的模型、登录、流式会话与原生文件查看器；外框采用活动栏、项目树、标签页、下方对话和状态栏。下图保留 0.8 版界面截图；0.8.4 已显示新名称。截图来自隔离验证项目中的历史 HexaShell 记录，未重跑机器人。
 
 ## 能做什么
 
@@ -42,14 +53,14 @@ python3 -m venv "$HOME/.local/share/linkmind-studio/python"
 
 然后通过 DSH 自带的插件管理器安装此仓库目录：
 
-> 安装 LinkMind Studio 插件：用 plugin_manager 的 install_bundle，target 传刚下载的 deepseek-harness-LinkMind 目录的绝对路径。安装后彻底退出并重新打开 DSH。
+> 安装 visual RSI studio 插件：用 plugin_manager 的 install_bundle，target 传刚下载的 deepseek-harness-LinkMind 目录的绝对路径。安装后彻底退出并重新打开 DSH。
 
 也可以在完全退出 DSH 后使用它的 CLI，**profile 和 DSH_HOME 必须对应平时使用的应用**：
 
 ```bash
 # 普通 dsh web 用户的 web profile
 npm pack --ignore-scripts
-dsh plugin --profile web add ./linkmind-dsh-studio-0.8.3.tgz --ignore-scripts
+dsh plugin --profile web add ./linkmind-dsh-studio-0.8.4.tgz --ignore-scripts
 ```
 
 `zhanxch/dsh-linux` 桌面版使用 `desktop` profile，默认数据目录为 `~/.dsh`。可运行本仓库的安装器（需要 Node.js 24.9+ 和 npm）：
@@ -60,11 +71,11 @@ node install-desktop.mjs
 # node install-desktop.mjs --home "$HOME/.local/share/dsh-linux/home"
 ```
 
-重新打开 **DeepSeek Harness**，新建会话，模式菜单选 **具身模式 · LinkMind**。默认无需配置 LinkMind 源码路径，也无需仿真器。插件设置中的 `python` 可指定另一 MCP Python 环境；默认使用上面创建的解释器。
+重新打开 **DeepSeek Harness**，新建会话，模式菜单选 **具身模式 · visual RSI studio**。默认无需配置 LinkMind 源码路径，也无需仿真器。插件设置中的 `python` 可指定另一 MCP Python 环境；默认使用上面创建的解释器。
 
 ## 第一次使用
 
-1. 用 DSH 原生 **工作区** 选择器打开本地仓库，模式选 **具身模式 · LinkMind**，照常选择会话模型。
+1. 用 DSH 原生 **工作区** 选择器打开本地仓库，模式选 **具身模式 · visual RSI studio**，照常选择会话模型。
 2. 在输入框键入 `/`，选择 **goal**，再写想完成的事情。例如：
 
    ```text
@@ -151,7 +162,7 @@ API 方案可在 recipe 中设置 `"conversation": {"format": "linkmind-events",
 - 源码追溯记录 Git HEAD、tracked diff 和未跟踪文件的哈希，不打包权重、被忽略资产或完整环境。退出码 0 也不等于任务成功。
 - 配置编辑器保护未保存草稿和并发修改；它是启动 JSON 编辑器，源码查看仍使用 DSH 原生文件功能。
 
-若需要 DSH 会话直接控制 LinkMind 内置仿真，可在设置中指定另行配置好的完整 [LinkMind Studio 开发分支](https://github.com/zhanxch/LinkMind/tree/feat/dsh-embodied-studio) checkout（`root`）及 Python。目前该集成仍在开发分支，不能直接使用 LinkMind 的 `main` 代替。该可选路线需要仿真资产和依赖，详见[上游 Studio 文档](https://github.com/zhanxch/LinkMind/blob/feat/dsh-embodied-studio/docs/studio-projects.md)。`codex` 设置也是可选的实验适配器，默认关闭，不改变 DSH 默认模型。该适配器在已有会话中切换模型可能受上下文压缩限制；可以新建会话、选择模型，再接续同一任务。
+若需要 DSH 会话直接控制 LinkMind 内置仿真，可在设置中指定另行配置好的完整 [Studio 集成开发分支](https://github.com/zhanxch/LinkMind/tree/feat/dsh-embodied-studio) checkout（`root`）及 Python。目前该集成仍在开发分支，不能直接使用 LinkMind 的 `main` 代替。该可选路线需要仿真资产和依赖，详见[上游 Studio 文档](https://github.com/zhanxch/LinkMind/blob/feat/dsh-embodied-studio/docs/studio-projects.md)。`codex` 设置也是可选的实验适配器，默认关闭，不改变 DSH 默认模型。该适配器在已有会话中切换模型可能受上下文压缩限制；可以新建会话、选择模型，再接续同一任务。
 
 ## 开发与验证
 

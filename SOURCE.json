@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/zhanxch/LinkMind",
-  "commit": "a4e3fa5f4a339eaed010b81780afc1b6a240fe89",
+  "commit": "6232ee58480316461f1a977d9a6830793b103fd4",
   "files": {
     "LICENSE": {
       "path": "studio/plugin/LICENSE",
@@ -12,7 +12,7 @@
     },
     "client.js": {
       "path": "studio/plugin/client.js",
-      "sha256": "533e77d33008000227398aeffe3e460fcbf77fdb343ceb9e75beb9ae903474b7"
+      "sha256": "6945deac7bf55305dd1bf71f8baac3116f52bf8a6aa367cd636f4043fc76d656"
     },
     "codex-provider.mjs": {
       "path": "studio/plugin/codex-provider.mjs",
@@ -20,7 +20,7 @@
     },
     "codex-rpc.mjs": {
       "path": "studio/plugin/codex-rpc.mjs",
-      "sha256": "02b20894d725dd52097ba930ca3446819e502e02b6937e7f3857e02d353d3065"
+      "sha256": "567524cbd72745794dfe04d4acd14fc64712bca63955369521406dcfc0552a85"
     },
     "codex-session.mjs": {
       "path": "studio/plugin/codex-session.mjs",
@@ -40,31 +40,31 @@
     },
     "desktop-host.mjs": {
       "path": "studio/plugin/desktop-host.mjs",
-      "sha256": "4d76276b2761c9786edb36eb751180cae7be0b71a2e66d521955ad56f20799c7"
+      "sha256": "c53a2e3476597720f149455cf9e926a487d3154569d818416e2b738a6adeee97"
     },
     "goal.mjs": {
       "path": "studio/plugin/goal.mjs",
-      "sha256": "47776e49fee5300cf8ecd82667415dc4989d5a4520fc5d9d352ead3b2f9dfe43"
+      "sha256": "ca2f5b2f9c54597136d85b9bfe9377139315fe693ab7cc1849402bb5117bcecc"
     },
     "index.mjs": {
       "path": "studio/plugin/index.mjs",
-      "sha256": "d9eee4c9069560e7dd4c27ad16f6abe1f4af0de36987efc03a6ab8fb669bfdee"
+      "sha256": "ed044512a43910f3bc64cff0ba047a073acf940edf30ab602834176bb3a64e53"
     },
     "package.json": {
       "path": "studio/plugin/package.json",
-      "sha256": "f05f1fba59a98f8c5c0c3e81d6f38555f378d23a9d1bce1ffd32877298f4c943"
+      "sha256": "79a337d9d6aa8d4956a621ae1aa25211f1c139a89d797de1e2b4da178ef8509e"
     },
     "preset.mjs": {
       "path": "studio/plugin/preset.mjs",
-      "sha256": "7ccd6a7c6648581075fec9d551afec4fa2e39a43c282f670e3b4286df2d4f10f"
+      "sha256": "040951a31b84a92094a20172f72e7efaddbfc38e2c0ac99a0b16e312ace27ea8"
     },
     "runtime.mjs": {
       "path": "studio/plugin/runtime.mjs",
-      "sha256": "d63de3bb07bda3f08b63d26d37b5a2edc1476975c05a2c3c1b319d4673a53ef6"
+      "sha256": "8d03bedbf4860e164ab3cf9044c3faa593eaf1c2c764c44b8b9a39e6c7aa498b"
     },
     "session.mjs": {
       "path": "studio/plugin/session.mjs",
-      "sha256": "27067a2bf088546007e03099541382d3d737dab10109605dc3b27fa4d8fb09cb"
+      "sha256": "01261a0e964dad6cf8de618b5b08d089dcc223eba7ae048782b5854b93f34819"
     },
     "studio-dock.mjs": {
       "path": "studio/plugin/studio-dock.mjs",
@@ -76,7 +76,7 @@
     },
     "studio-shell.mjs": {
       "path": "studio/plugin/studio-shell.mjs",
-      "sha256": "edbcdc81d7da037827b2a7780f808acf80457c9b8f51c61c5f3b2e9333c3ceff"
+      "sha256": "3717139fa419bd9eadc09e438ef9c6b1e9245d00b7e7085d285047a9e649305c"
     },
     "task-context.mjs": {
       "path": "studio/plugin/task-context.mjs",
@@ -84,7 +84,7 @@
     },
     "workbench.mjs": {
       "path": "studio/plugin/workbench.mjs",
-      "sha256": "995236f20e1bc2b5379f43e4ae801beedb9d3b1e78d0cf45ece95e65627a1d12"
+      "sha256": "caa3f86a9fa50fe541a6d95944bf535d541c2e579bcc7a8d137d44311317e4a8"
     },
     "backend/src/roborag/studio/__init__.py": {
       "path": "src/roborag/studio/__init__.py",

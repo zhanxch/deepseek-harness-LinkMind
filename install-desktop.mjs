@@ -57,5 +57,5 @@ const packed=JSON.parse(await run('npm',['pack','--json','--ignore-scripts','--p
 const archive = path.join(bundles, packed[0].filename.replace(/\.tgz$/, '-'+packed[0].shasum.slice(0,12)+'.tgz'));
 await copyFile(path.join(bundles,packed[0].filename),archive);
 await run(dsh,['plugin','--profile',profile,'add',archive,'--ignore-scripts']);
-console.log('LinkMind installed. Reopen DeepSeek Harness and select 具身模式 · LinkMind.');
+console.log('visual RSI studio installed. Reopen DeepSeek Harness and select 具身模式 · visual RSI studio.');
 console.log('Profile backup: '+backup);
