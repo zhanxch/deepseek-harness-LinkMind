@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/zhanxch/LinkMind",
-  "commit": "d4014ea0d3eff0482917d19d82316e51a1d1f57c",
+  "commit": "6e2566857bf9c7f5f17b47328da59573817f17b5",
   "files": {
     "LICENSE": {
       "path": "studio/plugin/LICENSE",
@@ -60,7 +60,7 @@
     },
     "rsi-views.mjs": {
       "path": "studio/plugin/rsi-views.mjs",
-      "sha256": "6f3bc67fce558a157d097a1969f212df7b1739be38d963f000c5ddcde664eb3e"
+      "sha256": "c1a03a829680218527cbe785624d5c8b5fac2b292aaf6e465b7002b0216cc0d2"
     },
     "runtime.mjs": {
       "path": "studio/plugin/runtime.mjs",
