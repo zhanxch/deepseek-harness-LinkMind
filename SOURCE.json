@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/zhanxch/LinkMind",
-  "commit": "6e2566857bf9c7f5f17b47328da59573817f17b5",
+  "commit": "254e224697a995e9b4cd5237059ec4400ab659ce",
   "files": {
     "LICENSE": {
       "path": "studio/plugin/LICENSE",
@@ -12,7 +12,7 @@
     },
     "client.js": {
       "path": "studio/plugin/client.js",
-      "sha256": "b5608332572c2a2b874e86eb931681b317dc740ef43f7362111639c94d54ded8"
+      "sha256": "0beebe14c56bb8972dcac06877988838bf68f11bb11b1831c066f61b85cb92a8"
     },
     "codex-provider.mjs": {
       "path": "studio/plugin/codex-provider.mjs",
@@ -48,19 +48,23 @@
     },
     "index.mjs": {
       "path": "studio/plugin/index.mjs",
-      "sha256": "61cf6453c2ee10a1e78a7f0dd592061a0e28516d884234c95b15c474eba1f21a"
+      "sha256": "5fba4e6216857ed2d213616d2c4d6f13b8cc9ccf5add1d23ec8f7d2b5e0c57bc"
     },
     "package.json": {
       "path": "studio/plugin/package.json",
-      "sha256": "8ebfc84dca308b884d4bd708ce22bb6d5893454d58c2b99187545f14dbf236d3"
+      "sha256": "c7b76dafe2da01b23ee8d0a8bc5120231d524bde05182c701f0b41a3106b717b"
     },
     "preset.mjs": {
       "path": "studio/plugin/preset.mjs",
       "sha256": "bf46650b509ab5763dac870d03be87fbc931511db9a4e0b92c45a312bfc96486"
     },
+    "rsi-matrix.mjs": {
+      "path": "studio/plugin/rsi-matrix.mjs",
+      "sha256": "2eee7bed4a5a86b3a68269a60736ab2f8c8c6bdf1895a187eb2d0d0fa8b99f1a"
+    },
     "rsi-views.mjs": {
       "path": "studio/plugin/rsi-views.mjs",
-      "sha256": "c1a03a829680218527cbe785624d5c8b5fac2b292aaf6e465b7002b0216cc0d2"
+      "sha256": "bfad2952268c97e2ae2ad30ff69400608383dfce078922331f03c59d91518a8f"
     },
     "runtime.mjs": {
       "path": "studio/plugin/runtime.mjs",
@@ -88,7 +92,7 @@
     },
     "workbench.mjs": {
       "path": "studio/plugin/workbench.mjs",
-      "sha256": "143c72c2e1b54e316ccad9e93f81129b11a8b0b3911d25d3d94077dcc2a0e435"
+      "sha256": "9aeb4f57d8f806f37228c168c437e1b8adced91d8503e2ba9bdb6b6a6ff30ccd"
     },
     "backend/src/roborag/studio/__init__.py": {
       "path": "src/roborag/studio/__init__.py",
@@ -96,7 +100,7 @@
     },
     "backend/src/roborag/studio/service.py": {
       "path": "src/roborag/studio/service.py",
-      "sha256": "517beafdfb29933d2f07542701b0724d409d7a6a9fd890bdad3a4bea725d65a2"
+      "sha256": "32a9337f569e8d8d18d510f2187a1a5c0a51399186c291061450c42b51c73a93"
     },
     "backend/src/roborag/studio/project_book.py": {
       "path": "src/roborag/studio/project_book.py",
@@ -124,7 +128,7 @@
     },
     "backend/src/roborag/studio/rsi_board.py": {
       "path": "src/roborag/studio/rsi_board.py",
-      "sha256": "9c7882e1c3529928fb172d3d9c7c1482f4ba53bc6f69f75d523b0c5a4baca3a0"
+      "sha256": "cb085d4e667853003265e09a3a55727dad8099e6f4f9522fcfd8a59bc5bc2c3b"
     },
     "backend/src/roborag/studio/project_worker.py": {
       "path": "src/roborag/studio/project_worker.py",
@@ -148,7 +152,7 @@
     },
     "examples/studio-project/README.md": {
       "path": "examples/studio-project/README.md",
-      "sha256": "e7f60da2ffe1fe09a9fb3513b156e731241e16bcecffad8bda11e948a4629355"
+      "sha256": "a5b4eef7aea6ab7bf06689c050c6a491b81639f5f84866d4cb1c8b233f54a379"
     },
     "examples/studio-project/run.py": {
       "path": "examples/studio-project/run.py",
@@ -164,7 +168,7 @@
     },
     "examples/studio-project/studio.rsi.jsonl": {
       "path": "examples/studio-project/studio.rsi.jsonl",
-      "sha256": "28ac90aa85361e723c6556f3ba87dab7ab8c6ac6ac3843cb64c4282fc0891c28"
+      "sha256": "23007e2ea6d0e774d51f4aee0e24649cf7dcd4d4140439d096543dd7ee3b578a"
     },
     "examples/studio-project/evidence/baseline-standard.json": {
       "path": "examples/studio-project/evidence/baseline-standard.json",
@@ -206,6 +210,42 @@
       "path": "examples/studio-project/evidence/none-random.json",
       "sha256": "52fc8fb60f9cbe41c404296ee6ad4208840617c08f2ddcdae09609d36c0e6883"
     },
+    "examples/studio-project/studio.rsi.d/robodojo-history.jsonl": {
+      "path": "examples/studio-project/studio.rsi.d/robodojo-history.jsonl",
+      "sha256": "d7ffe12dfa91d60ac273a76e7864fda0ea673069fc50b3826a59379c64fc41a2"
+    },
+    "examples/studio-project/batch-evidence/fold_clothes.json": {
+      "path": "examples/studio-project/batch-evidence/fold_clothes.json",
+      "sha256": "5acbb1cd8edb8ae21f0621f0808f812e9961814cb66c8aed578d7970fa8378d2"
+    },
+    "examples/studio-project/batch-evidence/hang_mugs.json": {
+      "path": "examples/studio-project/batch-evidence/hang_mugs.json",
+      "sha256": "a89e960fc23edd43272c5f2a23c0eb2eba9bc5946b26d10ba7eb2e43e5fe122a"
+    },
+    "examples/studio-project/batch-evidence/make_toast.json": {
+      "path": "examples/studio-project/batch-evidence/make_toast.json",
+      "sha256": "359bc0e065a8cf764ecddeb21a15036c5ff7a025aecbb08180e562f1501d910f"
+    },
+    "examples/studio-project/batch-evidence/pack_objects_into_box.json": {
+      "path": "examples/studio-project/batch-evidence/pack_objects_into_box.json",
+      "sha256": "ece22dcc6c30842c0de832772782fdb41fc90a558dd6f64b70796bdba8bf8193"
+    },
+    "examples/studio-project/batch-evidence/push_T.json": {
+      "path": "examples/studio-project/batch-evidence/push_T.json",
+      "sha256": "cc1658a328201fca975fa4491c8647ebed78b0a506aa89a30d48970b78f190b8"
+    },
+    "examples/studio-project/batch-evidence/stack_blocks.json": {
+      "path": "examples/studio-project/batch-evidence/stack_blocks.json",
+      "sha256": "7ee4ab169e7c89a768075dacb4a12e6e447bc4bf5372f696ae12d0164e1207a4"
+    },
+    "examples/studio-project/batch-evidence/stack_bowls.json": {
+      "path": "examples/studio-project/batch-evidence/stack_bowls.json",
+      "sha256": "53b5119ea321fb38adcb0f0a838bda93ca34064ffd7808dd02eaef6b912e2a0a"
+    },
+    "examples/studio-project/batch-evidence/sweep_blocks.json": {
+      "path": "examples/studio-project/batch-evidence/sweep_blocks.json",
+      "sha256": "e6b7e082d681ab61258b06c4dc533ac916c48024e09e58b346119e6db08a722e"
+    },
     "docs/projects.md": {
       "path": "docs/studio-projects.md",
       "sha256": "2edd7ac11ab61a05654e73e8737bd7dfd12dfdee307b28ed127f86b48a45e19e",
@@ -213,7 +253,7 @@
     },
     "docs/rsi-board.md": {
       "path": "docs/studio-rsi-board.md",
-      "sha256": "fa79e60696f106e1e4ae25aeb8273e3c833d9998554acfbe8b4f3bd8a78382e6"
+      "sha256": "0c915fa288d269af88dc91d293e447e99a324ef322aceb796e521b069013f7da"
     },
     "docs/workbench.md": {
       "path": "docs/studio-ide-workbench.md",
@@ -251,9 +291,9 @@
     },
     "tests/test_rsi_studio.py": {
       "path": "tests/test_rsi_studio.py",
-      "sha256": "52592b68f8ab89e6970cfd73cf50df69a6f8088974c53cb8bcb9553fd4bf8308",
+      "sha256": "61e237ea0c38184d8538b5a997cb5638ab4328b5584e37192fc2468c45c84ac7",
       "note": "Test Python path adjusted to standalone backend/src",
-      "exported_sha256": "6c5eb81d77d5075b65b37943bc18c1d3ae1246b8a1505e479b089768122ad41d"
+      "exported_sha256": "711c0d752fbe222bcfd4abe4674395df39e085849d06132f3381b8830130e74d"
     },
     "tests/studio-overview.test.mjs": {
       "path": "studio/studio-overview.test.mjs",
@@ -287,8 +327,8 @@
     },
     "tests/rsi-board.test.mjs": {
       "path": "studio/tests/rsi-board.test.mjs",
-      "sha256": "967e3cc88404a94069f81d532219eb29100903746e6fa9b731bd3e39e2516e95",
-      "exported_sha256": "0f418b87bc2c8390ae89db141a42feba4d11284a9f024e0dbd31600472fe2c67"
+      "sha256": "0a54b1b3f6e85724bd00e3985127a60a3ce26f375909f71040b99e0216e80528",
+      "exported_sha256": "1db433cef959bcfb21cc0b0d74727cc65c2d7901292d754ee9c083ac29376742"
     },
     "docs/codex-continuity.md": {
       "path": "docs/studio-codex-continuity.md",
