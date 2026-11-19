@@ -11,13 +11,13 @@
 
 日常使用：选工作区与环境 → 会话中启动 → 看过程 → 保存和比较结果。仍沿用 DSH 原生会话操作，持续任务可选用 `/goal 复现|优化|开发`。
 
-**第一次试用**　打开本仓库的 `examples/studio-project` 工作区，在会话中说「运行 rsi-calibration」，再点左侧 **Agent RSI Board**，就能看到两次实测的控制误差及对应改动。这个示例只用 Python 标准库。
+**第一次试用**　打开 `examples/studio-project`，点 **Agent RSI Board**，选择 **no_plan** 与父版本 **summaries**。同样两个 Push-T 布局都成功，标准布局少走 113 步，随机布局多走 63 步。点击布局可以核对两侧工具调用和原生报告。这是五档人工消融的历史开发数据，每个布局每档一次。
 
 要接入仿真器，点 **环境注册**，选择本机 checkout 与 Python。内置支持 LIBERO、LIBERO-Pro、RoboCasa、RoboTwin 2；其他环境可用同一份清单协议接入。LIBERO 与 LIBERO-Pro 已验证重置与取帧，另两个已核对入口，尚待完整仿真验证。[环境与 Board 使用指南](docs/rsi-board.md)
 
 Studio 现名 **visual RSI studio**；LinkMind 保留为独立研究方案名称。仓库地址、插件标识与存储路径暂沿用旧值，兼容已有安装和会话。
 
-这是开发预览 `0.9.0`，当前验证环境为 **Linux x64 + DSH 0.2.2-rc.2**。它不是新的控制算法，也不自动完成任意仓库的复现。
+这是开发预览 `0.9.1`，当前验证环境为 **Linux x64 + DSH 0.2.2-rc.2**。它不是新的控制算法，也不自动完成任意仓库的复现。
 
 ## 界面
 
@@ -62,7 +62,7 @@ python3 -m venv "$HOME/.local/share/linkmind-studio/python"
 ```bash
 # 普通 dsh web 用户的 web profile
 npm pack --ignore-scripts
-dsh plugin --profile web add ./linkmind-dsh-studio-0.9.0.tgz --ignore-scripts
+dsh plugin --profile web add ./linkmind-dsh-studio-0.9.1.tgz --ignore-scripts
 ```
 
 `zhanxch/dsh-linux` 桌面版使用 `desktop` profile，默认数据目录为 `~/.dsh`。可运行本仓库的安装器（需要 Node.js 24.9+ 和 npm）：
