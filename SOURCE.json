@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/zhanxch/LinkMind",
-  "commit": "720165efe578b95b81b60557b280afafec7d3ab8",
+  "commit": "8eb97a0a07e9b15ab024d3d4415c0b78edd2c17e",
   "files": {
     "LICENSE": {
       "path": "studio/plugin/LICENSE",
@@ -136,11 +136,11 @@
     },
     "backend/src/roborag/studio/rsi_flow.py": {
       "path": "src/roborag/studio/rsi_flow.py",
-      "sha256": "380e39ae65f9158e6f543c95fac823df9e7f8184c2b9408ccb010e201bcf794e"
+      "sha256": "7d336748acd793b8405c48becc09330808d0e9ebd5233bfaf490990cbfcf93b5"
     },
     "backend/src/roborag/studio/rrsi_probe.py": {
       "path": "src/roborag/studio/rrsi_probe.py",
-      "sha256": "eb7bd6cc56ca7897ccd720dcfb0c46c0078c1694cba7eedb7a4cd2e69e7438ee"
+      "sha256": "f9c0a19c2ffbd145117fe59f227b5d2209114927b52ffc683b2adf4d0e598d9c"
     },
     "backend/src/roborag/studio/project_worker.py": {
       "path": "src/roborag/studio/project_worker.py",
@@ -317,7 +317,7 @@
     },
     "tests/test_rsi_flow.py": {
       "path": "tests/test_rsi_flow.py",
-      "sha256": "fb07a449c24729423b572828e00573e810bb917a14ee2f4ccc06d78146cabbff",
+      "sha256": "84f7affb94a3bddcaa6bbbe4495e2216d251fa1c296b4887461015f04418bf4f",
       "note": "Test Python path adjusted to standalone backend/src"
     },
     "tests/studio-overview.test.mjs": {
