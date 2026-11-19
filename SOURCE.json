@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/zhanxch/LinkMind",
-  "commit": "8eb97a0a07e9b15ab024d3d4415c0b78edd2c17e",
+  "commit": "afdb95702015198dc16bf7561a1c6d97ef9b19e4",
   "files": {
     "LICENSE": {
       "path": "studio/plugin/LICENSE",
@@ -12,7 +12,7 @@
     },
     "client.js": {
       "path": "studio/plugin/client.js",
-      "sha256": "e69046a7519901d9412e6423d3ef6de011fc19b0b1e79fff1ea5dd5db46d2dff"
+      "sha256": "62b5c9a4e14fba99182213503f9415f4b8b4bc4be419b8509ba58edd08919455"
     },
     "codex-provider.mjs": {
       "path": "studio/plugin/codex-provider.mjs",
@@ -52,7 +52,7 @@
     },
     "package.json": {
       "path": "studio/plugin/package.json",
-      "sha256": "683aac972f8a7fa71bf4cdb51b9f00d2acc762f5c89fa531893122c5d7c549b4"
+      "sha256": "bd083964955628f70d1e462f73b10dcbd8d6f765319a96b15dac5fa2bc4a45b9"
     },
     "preset.mjs": {
       "path": "studio/plugin/preset.mjs",
@@ -60,7 +60,7 @@
     },
     "rsi-flow.mjs": {
       "path": "studio/plugin/rsi-flow.mjs",
-      "sha256": "f76aa5c4875f156d6ae95b9e5862dbf016905af492e3fda08782df7741c34677"
+      "sha256": "e94f67c31914c479497a8920baf769ac9af42cf6951bd85c744a849538297ffb"
     },
     "rsi-matrix.mjs": {
       "path": "studio/plugin/rsi-matrix.mjs",
@@ -96,7 +96,7 @@
     },
     "workbench.mjs": {
       "path": "studio/plugin/workbench.mjs",
-      "sha256": "e065a0c74cd00d36ec4f3307a0ed745a668ced4481b631905a24743fdbd1d55f"
+      "sha256": "43ff36b1a378bb002ed7658de1dbdf7fefb9633b5fde9e789a2a07b2cb68d42f"
     },
     "backend/src/roborag/studio/__init__.py": {
       "path": "src/roborag/studio/__init__.py",
@@ -136,11 +136,15 @@
     },
     "backend/src/roborag/studio/rsi_flow.py": {
       "path": "src/roborag/studio/rsi_flow.py",
-      "sha256": "7d336748acd793b8405c48becc09330808d0e9ebd5233bfaf490990cbfcf93b5"
+      "sha256": "5dbc614c5d7065bda2fb1f5e0181827b9c08a4e619518c987b18a35b249c65cc"
+    },
+    "backend/src/roborag/studio/rsi_validation.py": {
+      "path": "src/roborag/studio/rsi_validation.py",
+      "sha256": "4b79f848d12088c83d09f68076f844cb3e7cca215b33930af022a25189db0536"
     },
     "backend/src/roborag/studio/rrsi_probe.py": {
       "path": "src/roborag/studio/rrsi_probe.py",
-      "sha256": "f9c0a19c2ffbd145117fe59f227b5d2209114927b52ffc683b2adf4d0e598d9c"
+      "sha256": "8f88a32b77d3ad273d4b816fa4d7a4f0ec63a392e7827d7ef3f871505e3c4d22"
     },
     "backend/src/roborag/studio/project_worker.py": {
       "path": "src/roborag/studio/project_worker.py",
@@ -273,7 +277,7 @@
     },
     "docs/rsi-flow.md": {
       "path": "docs/studio-rsi-flow.md",
-      "sha256": "733330496430d52783ddc67c6668ae9a50c0d8b9c2f715d6da758fd87bd87edf"
+      "sha256": "4d763ef5d67e6ba61991d58782e15d896596d766ff22a3d32b2d7f89b84ab61d"
     },
     "docs/workbench.md": {
       "path": "docs/studio-ide-workbench.md",
@@ -317,7 +321,7 @@
     },
     "tests/test_rsi_flow.py": {
       "path": "tests/test_rsi_flow.py",
-      "sha256": "84f7affb94a3bddcaa6bbbe4495e2216d251fa1c296b4887461015f04418bf4f",
+      "sha256": "e36659b38e4f5426a7e7a234964d57602154c8a02c0a641599f5253349dbf576",
       "note": "Test Python path adjusted to standalone backend/src"
     },
     "tests/studio-overview.test.mjs": {
