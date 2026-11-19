@@ -11,13 +11,13 @@
 
 日常使用：选工作区与环境 → 会话中启动 → 看过程 → 保存和比较结果。仍沿用 DSH 原生会话操作，持续任务可选用 `/goal 复现|优化|开发`。
 
-**第一次试用**　打开 `examples/studio-project`，点 **Agent RSI Board**。首页显示 RoboDojo 历史评测的任务 × 版本矩阵，涵盖八个任务、400 个场景。切换 **较父版** 查看修复、回归、补齐评分，点一个格子查看相应场景和证据。
+**第一次试用**　打开 `examples/studio-project`，在 **运行配置** 启动 `rsi-workflow-demo`，再看 **Agent RSI Board**。演化流程会实时显示候选的提案、审查、评估、决策和生效。点 **批量评测** 查看 RoboDojo 8 个任务、400 个场景的历史矩阵。[演化流程与探针接入](docs/rsi-flow.md)
 
 要接入仿真器，点 **环境注册**，选择本机 checkout 与 Python。内置支持 LIBERO、LIBERO-Pro、RoboCasa、RoboTwin 2；其他环境可用同一份清单协议接入。LIBERO 与 LIBERO-Pro 已验证重置与取帧，另两个已核对入口，尚待完整仿真验证。[环境与 Board 使用指南](docs/rsi-board.md)
 
 Studio 现名 **visual RSI studio**；LinkMind 保留为独立研究方案名称。仓库地址、插件标识与存储路径暂沿用旧值，兼容已有安装和会话。
 
-这是开发预览 `0.10.0`，当前验证环境为 **Linux x64 + DSH 0.2.2-rc.2**。它不是新的控制算法，也不自动完成任意仓库的复现。
+这是开发预览 `0.11.0`，当前验证环境为 **Linux x64 + DSH 0.2.2-rc.2**。它不是新的控制算法，也不自动完成任意仓库的复现。
 
 ## 界面
 
@@ -62,7 +62,7 @@ python3 -m venv "$HOME/.local/share/linkmind-studio/python"
 ```bash
 # 普通 dsh web 用户的 web profile
 npm pack --ignore-scripts
-dsh plugin --profile web add ./linkmind-dsh-studio-0.10.0.tgz --ignore-scripts
+dsh plugin --profile web add ./linkmind-dsh-studio-0.11.0.tgz --ignore-scripts
 ```
 
 `zhanxch/dsh-linux` 桌面版使用 `desktop` profile，默认数据目录为 `~/.dsh`。可运行本仓库的安装器（需要 Node.js 24.9+ 和 npm）：
