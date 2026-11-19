@@ -4,18 +4,20 @@
 
 **用于具身 Agent 的可视化工作台，重点做好四件事：可视化、数据管理、环境注册、实际效果。**
 
-1. **可视化**：在会话中看真实执行过程、工具调用和摄像头，运行时可以引导。
+1. **可视化**：在会话中看真实控制过程和摄像头，在 Agent RSI Board 看多轮迭代的改动、指标和分支。
 2. **数据管理**：整理每次运行的输入、配置、代码版本、轨迹、画面和结果，能够查找与比较。
 3. **环境注册**：接入并选择仿真或真实环境，说明依赖、资源、连接和启动条件；同一环境供不同方案复用。
 4. **实际效果**：看任务是否完成、评分与耗时，以及修改前后是否改善，用实际结果检验工作台是否好用。
 
 日常使用：选工作区与环境 → 会话中启动 → 看过程 → 保存和比较结果。仍沿用 DSH 原生会话操作，持续任务可选用 `/goal 复现|优化|开发`。
 
-当前已有基础可视化与运行记录；独立的环境注册与选择仍待实现，现阶段使用项目运行配置。外部控制方案的插话能力取决于其适配器。完整同步回放、环境打包和系统效果对照尚未完成。见[简明定位](docs/product-brief.md)与[四项验证](docs/product-validation.md)。
+**第一次试用**　打开本仓库的 `examples/studio-project` 工作区，在会话中说「运行 rsi-calibration」，再点左侧 **Agent RSI Board**，就能看到两次实测的控制误差及对应改动。这个示例只用 Python 标准库。
+
+要接入仿真器，点 **环境注册**，选择本机 checkout 与 Python。内置支持 LIBERO、LIBERO-Pro、RoboCasa、RoboTwin 2；其他环境可用同一份清单协议接入。LIBERO 与 LIBERO-Pro 已验证重置与取帧，另两个已核对入口，尚待完整仿真验证。[环境与 Board 使用指南](docs/rsi-board.md)
 
 Studio 现名 **visual RSI studio**；LinkMind 保留为独立研究方案名称。仓库地址、插件标识与存储路径暂沿用旧值，兼容已有安装和会话。
 
-这是开发预览 `0.8.4`，当前验证环境为 **Linux x64 + DSH 0.2.2-rc.2**。它不是新的控制算法，也不自动完成任意仓库的复现。
+这是开发预览 `0.9.0`，当前验证环境为 **Linux x64 + DSH 0.2.2-rc.2**。它不是新的控制算法，也不自动完成任意仓库的复现。
 
 ## 界面
 
@@ -60,7 +62,7 @@ python3 -m venv "$HOME/.local/share/linkmind-studio/python"
 ```bash
 # 普通 dsh web 用户的 web profile
 npm pack --ignore-scripts
-dsh plugin --profile web add ./linkmind-dsh-studio-0.8.4.tgz --ignore-scripts
+dsh plugin --profile web add ./linkmind-dsh-studio-0.9.0.tgz --ignore-scripts
 ```
 
 `zhanxch/dsh-linux` 桌面版使用 `desktop` profile，默认数据目录为 `~/.dsh`。可运行本仓库的安装器（需要 Node.js 24.9+ 和 npm）：

@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/zhanxch/LinkMind",
-  "commit": "6232ee58480316461f1a977d9a6830793b103fd4",
+  "commit": "270175a9b6d2cbf27a0a802410432c96f37cb0dd",
   "files": {
     "LICENSE": {
       "path": "studio/plugin/LICENSE",
@@ -12,7 +12,7 @@
     },
     "client.js": {
       "path": "studio/plugin/client.js",
-      "sha256": "6945deac7bf55305dd1bf71f8baac3116f52bf8a6aa367cd636f4043fc76d656"
+      "sha256": "a509cd8935a864c8db992405fa9a41f061d475430e501c3dfcb11ae81a621546"
     },
     "codex-provider.mjs": {
       "path": "studio/plugin/codex-provider.mjs",
@@ -48,15 +48,19 @@
     },
     "index.mjs": {
       "path": "studio/plugin/index.mjs",
-      "sha256": "ed044512a43910f3bc64cff0ba047a073acf940edf30ab602834176bb3a64e53"
+      "sha256": "61cf6453c2ee10a1e78a7f0dd592061a0e28516d884234c95b15c474eba1f21a"
     },
     "package.json": {
       "path": "studio/plugin/package.json",
-      "sha256": "79a337d9d6aa8d4956a621ae1aa25211f1c139a89d797de1e2b4da178ef8509e"
+      "sha256": "699a647a9294253adc09e95e0035247a1b6b8b04bcf31295698c0da0b4d386d3"
     },
     "preset.mjs": {
       "path": "studio/plugin/preset.mjs",
-      "sha256": "040951a31b84a92094a20172f72e7efaddbfc38e2c0ac99a0b16e312ace27ea8"
+      "sha256": "bf46650b509ab5763dac870d03be87fbc931511db9a4e0b92c45a312bfc96486"
+    },
+    "rsi-views.mjs": {
+      "path": "studio/plugin/rsi-views.mjs",
+      "sha256": "368cd7c9aa004cbc6502964d41a02204baade71525a91f5115651b8a5bedf30d"
     },
     "runtime.mjs": {
       "path": "studio/plugin/runtime.mjs",
@@ -64,7 +68,7 @@
     },
     "session.mjs": {
       "path": "studio/plugin/session.mjs",
-      "sha256": "01261a0e964dad6cf8de618b5b08d089dcc223eba7ae048782b5854b93f34819"
+      "sha256": "d9ae53210cc43039bd366a4c8e4ed6d084fdcb354fff8fd9686d66b3cd2b6c03"
     },
     "studio-dock.mjs": {
       "path": "studio/plugin/studio-dock.mjs",
@@ -76,7 +80,7 @@
     },
     "studio-shell.mjs": {
       "path": "studio/plugin/studio-shell.mjs",
-      "sha256": "3717139fa419bd9eadc09e438ef9c6b1e9245d00b7e7085d285047a9e649305c"
+      "sha256": "5a17fbdc21b4575764af34e8dbe1cbc32b5d279c9f1a59ea982bf3d07bd96323"
     },
     "task-context.mjs": {
       "path": "studio/plugin/task-context.mjs",
@@ -84,7 +88,7 @@
     },
     "workbench.mjs": {
       "path": "studio/plugin/workbench.mjs",
-      "sha256": "caa3f86a9fa50fe541a6d95944bf535d541c2e579bcc7a8d137d44311317e4a8"
+      "sha256": "76853e440ccb518f8f172ce38f6e4f81cdfc1facebfa61149f797a69e32d6c68"
     },
     "backend/src/roborag/studio/__init__.py": {
       "path": "src/roborag/studio/__init__.py",
@@ -92,7 +96,7 @@
     },
     "backend/src/roborag/studio/service.py": {
       "path": "src/roborag/studio/service.py",
-      "sha256": "ed682e394e298ad8a1a52ee0c5a64020c5888c3e1e2d48920bfa2a8a2c2241ea"
+      "sha256": "517beafdfb29933d2f07542701b0724d409d7a6a9fd890bdad3a4bea725d65a2"
     },
     "backend/src/roborag/studio/project_book.py": {
       "path": "src/roborag/studio/project_book.py",
@@ -108,7 +112,19 @@
     },
     "backend/src/roborag/studio/projects.py": {
       "path": "src/roborag/studio/projects.py",
-      "sha256": "1cfc5fa0abcbd52475c860cf11a7b34c2a5bed917868500f72cc90145a801f71"
+      "sha256": "d319ff44262a49aae9d21d342f4ef9118afd980275ba94ad08ab610f6a9a06d4"
+    },
+    "backend/src/roborag/studio/environments.py": {
+      "path": "src/roborag/studio/environments.py",
+      "sha256": "07273a00ef104630b5e0dbbca719e4e99a03d1e4824ceba5023fba126dda17e8"
+    },
+    "backend/src/roborag/studio/observe_environment.py": {
+      "path": "src/roborag/studio/observe_environment.py",
+      "sha256": "40078526b96ef7ea45d239df5cf74cbd55df351ec89daad2b8951157d02c7bd6"
+    },
+    "backend/src/roborag/studio/rsi_board.py": {
+      "path": "src/roborag/studio/rsi_board.py",
+      "sha256": "1606c23cb04015715cc600680fa8502b8dd5501bc158a0c49d52103a31ff0023"
     },
     "backend/src/roborag/studio/project_worker.py": {
       "path": "src/roborag/studio/project_worker.py",
@@ -124,7 +140,7 @@
     },
     "backend/src/roborag/studio/mcp.py": {
       "path": "src/roborag/studio/mcp.py",
-      "sha256": "c2e285a59762c4513a2d3aa3ad6976c66857a7bd133ea0b2ea652b103af77a42"
+      "sha256": "0de308725e6ac8db2373bf185f002fa1a822cd40b52d6ba0209186270687930e"
     },
     "backend/src/roborag/episode_files.py": {
       "path": "src/roborag/episode_files.py",
@@ -132,12 +148,15 @@
     },
     "examples/studio-project/README.md": {
       "path": "examples/studio-project/README.md",
-      "sha256": "0bf76ddd0ebe7b9ca4c736d7295a45fdaf2eb96f92c39e548b3b77d5d8f5ad99",
-      "exported_sha256": "243976e19a0803e622546a576587783138c13d1f43379484ba62b05ac84f53f3"
+      "sha256": "8f0594549b899dc81d57ec6abb99abea430a479e37fd0203bbc6164ef871dbe3"
     },
     "examples/studio-project/linkmind.studio.json": {
       "path": "examples/studio-project/linkmind.studio.json",
-      "sha256": "1cc8fee07dc8d988016428a2d96c3497850f2c8213fe11e95c154475aeeab00b"
+      "sha256": "22f8bd6db04e65bbda115b6d718a0aabaf07dcb244dcf023cd6e63c7094f17c2"
+    },
+    "examples/studio-project/rsi_calibration.py": {
+      "path": "examples/studio-project/rsi_calibration.py",
+      "sha256": "4a1e90009f6f4716dcaaaf8ed1a9b53571af41fa83a9d6b73c05a80cd3e5010d"
     },
     "examples/studio-project/run.py": {
       "path": "examples/studio-project/run.py",
@@ -147,6 +166,10 @@
       "path": "docs/studio-projects.md",
       "sha256": "2edd7ac11ab61a05654e73e8737bd7dfd12dfdee307b28ed127f86b48a45e19e",
       "exported_sha256": "cee2927169255ce4c13e9bd85881daeb81dabebf4ff89ffddf68b02d25a835eb"
+    },
+    "docs/rsi-board.md": {
+      "path": "docs/studio-rsi-board.md",
+      "sha256": "8fe28c0b7403bccc707cbd8a2cd1ae333e3e68ed5fca9dfdba25362d42b435ec"
     },
     "docs/workbench.md": {
       "path": "docs/studio-ide-workbench.md",
@@ -182,6 +205,12 @@
       "sha256": "820f1e10ea99d75231510c02e7e4dcfe463c59fd97eff10cfc2939682a70af74",
       "note": "Test Python path adjusted to standalone backend/src"
     },
+    "tests/test_rsi_studio.py": {
+      "path": "tests/test_rsi_studio.py",
+      "sha256": "0556d1bda98c42f5b234e9598857c83d9a381790c0475f700c3796d9134ea39a",
+      "note": "Test Python path adjusted to standalone backend/src",
+      "exported_sha256": "c4f223b8456cb5a6807f306a8c9b3c2cd142177be4280f6aa8b0a6330787e404"
+    },
     "tests/studio-overview.test.mjs": {
       "path": "studio/studio-overview.test.mjs",
       "sha256": "30a9876b3e9b9c78e6cf89c56fdc9440fcbcb677a7b405efd7558610456a9a02",
@@ -211,6 +240,11 @@
       "path": "studio/tests/studio-dock.test.mjs",
       "sha256": "3b37cde6a36457a8c25ac2aa30da5d30de79a588a3530158ecaf1ec39ec76680",
       "exported_sha256": "4883af02d629e74af9958fa1dd499b4429ab89d1c79576241f2cadc2afc9e96b"
+    },
+    "tests/rsi-board.test.mjs": {
+      "path": "studio/tests/rsi-board.test.mjs",
+      "sha256": "c67caa358af29832922ff6b831a9e1b846aba103301bd2dfd00cd636164b29c8",
+      "exported_sha256": "a6ee5f76805fc33095aaa5c139180567fc518ded872f4b74c0b38817c5e77007"
     },
     "docs/codex-continuity.md": {
       "path": "docs/studio-codex-continuity.md",
